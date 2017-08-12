@@ -599,14 +599,14 @@ Post (Jump to widget: Blog1 --- includable: main)
                   </div><!-- /.card-block-img-left-sm -->
                 </div><!-- /col -->
                 <div class='col-sm-9 col-md-8'>
-                  <div class='card-block'>
+                  <div class='card-body'>
                     <!-- Title -->
                     <b:include data='{ heading: "h2", headingClass: "card-title", link: true, linkClass: "card-title-link", noTitleMessage: false }' name='post.title'/>
                     <!-- Snippet -->
                     <b:include data='{ length: 150, links: true, linebreaks: true, ellipsis: true, notHasJumpLink: true, parentClass: "card-text" }' name='post.snippet'/>
                     <!-- Jump link -->
                     <b:include data='{ linkClass: "btn btn-primary", parentClass: "mt-2" }' name='post.jumpLink'/>
-                  </div><!-- /.card-block -->
+                  </div><!-- /.card-body -->
                 </div><!-- /col -->
               </div><!-- /.row -->
 
@@ -644,12 +644,12 @@ Post (Jump to widget: Blog1 --- includable: main)
               </div><!-- /.card-header -->
 
               <!-- >>> Body <<< -->
-              <div class='card-block'>
+              <div class='card-body'>
                 <!-- Title -->
                 <b:include data='{ heading: "h1", headingClass: "", link: false, linkClass: "", noTitleMessage: false }' name='post.title'/>
                 <!-- Body -->
                 <data:post.body/>
-              </div><!-- /.card-block -->
+              </div><!-- /.card-body -->
 
               <!-- >>> Footer <<< -->
               <div class='card-footer'>
@@ -673,12 +673,12 @@ Post (Jump to widget: Blog1 --- includable: main)
             <article class='card mb-3' expr:id='"post-" + data:post.id'>
 
               <!-- >>> Body <<< -->
-              <div class='card-block'>
+              <div class='card-body'>
                 <!-- Title -->
                 <b:include data='{ heading: "h1", headingClass: "", link: false, linkClass: "", noTitleMessage: false }' name='post.title'/>
                 <!-- Body -->
                 <data:post.body/>
-              </div><!-- /.card-block -->
+              </div><!-- /.card-body -->
 
             </article><!-- /.card -->
           </b:loop>
@@ -698,7 +698,7 @@ Post (Jump to widget: Blog1 --- includable: main)
                   </div>
 
                   <!-- >>> Body <<< -->
-                  <div class='card-block'>
+                  <div class='card-body'>
                     <!-- Title -->
                     <b:include data='{ heading: "h2", headingClass: "card-title h4", link: true, linkClass: "card-title-link", noTitleMessage: false }' name='post.title'/>
                     <!-- Date -->
@@ -709,7 +709,7 @@ Post (Jump to widget: Blog1 --- includable: main)
                     <b:include data='{ length: 150, links: true, linebreaks: true, ellipsis: true, notHasJumpLink: false, parentClass: "card-text" }' name='post.snippet'/>
                     <!-- Jump link -->
                     <b:include data='{ class: "card-link", parentClass: "mt-2" }' name='post.jumpLink'/>
-                  </div><!-- /.card-block -->
+                  </div><!-- /.card-body -->
 
                   <!-- >>> Footer <<< -->
                   <div class='card-footer'>
@@ -741,7 +741,7 @@ Post (Jump to widget: Blog1 --- includable: main)
             <article class='card mb-3' expr:id='"post-" + data:post.id'>
 
               <!-- >>> Body <<< -->
-              <div class='card-block'>
+              <div class='card-body'>
                 <!-- Title -->
                 <b:include data='{ heading: "h2", headingClass: "card-title", link: true, linkClass: "card-title-link", noTitleMessage: false }' name='post.title'/>
                 <!-- Date and snippet -->
@@ -750,7 +750,7 @@ Post (Jump to widget: Blog1 --- includable: main)
                   <span class='text-muted'>-</span>
                   <b:include data='{ length: 150, links: false, linebreaks: false, ellipsis: true, notHasJumpLink: false, parentClass: "d-inline" }' name='post.snippet'/>
                 </div><!-- /.card-text -->
-              </div><!-- /.card-block -->
+              </div><!-- /.card-body -->
 
             </article><!-- /.card -->
           </b:loop>
@@ -778,14 +778,14 @@ Post (Jump to widget: Blog1 --- includable: main)
                   </div><!-- /.card-block-img-left-sm -->
                 </div><!-- /col -->
                 <div class='col-sm-9 col-md-8'>
-                  <div class='card-block'>
+                  <div class='card-body'>
                     <!-- Title -->
                     <b:include data='{ heading: "h2", headingClass: "card-title", link: true, linkClass: "card-title-link", noTitleMessage: false }' name='post.title'/>
                     <!-- Snippet -->
                     <b:include data='{ length: 150, links: true, linebreaks: true, ellipsis: true, notHasJumpLink: true, parentClass: "card-text" }' name='post.snippet'/>
                     <!-- Jump link -->
                     <b:include data='{ linkClass: "btn btn-primary", parentClass: "mt-2" }' name='post.jumpLink'/>
-                  </div><!-- /.card-block -->
+                  </div><!-- /.card-body -->
                 </div><!-- /col -->
               </div><!-- /.row -->
 
@@ -1008,7 +1008,7 @@ Skip navigation
 Navbar
 ================================================= </b:comment>
 
-<nav class='navbar navbar-toggleable-md navbar-inverse bg-inverse'>
+<nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
   <div class='container'>
 
     <a class='navbar-brand' expr:href='data:blog.homepageUrl'>
@@ -1020,7 +1020,7 @@ Navbar
         <span class='navbar-toggler-icon'></span>
       </button>
       <div class='collapse navbar-collapse' id='navbarCollapse'>
-        <ul class='navbar-nav mt-2 mt-md-0'>
+        <ul class='navbar-nav mt-2 mt-lg-0'>
           <b:if cond='data:widgets any (w =&gt; w.sectionId == "b-section-navbar-dropdown-labels")'>
             <li class='nav-item dropdown'>
               <b:section id='b-section-navbar-dropdown-labels' maxwidgets='1' name='Navbar: dropdown labels' showaddelement='no'>
@@ -1059,7 +1059,7 @@ Navbar
                     <div class='dropdown-menu p-2'>
                       <b:loop values='data:labels' var='label'>
                         <a class='badge' expr:href='data:label.url'>
-                          <b:class cond='data:view.url.canonical and (data:view.search.label != data:label.name)' name='badge-default'/>
+                          <b:class cond='data:view.url.canonical and (data:view.search.label != data:label.name)' name='badge-secondary'/>
                           <b:class cond='data:view.search.label == data:label.name' name='badge-primary'/>
                           <data:label.name/>
                           <b:if cond='data:this.showFreqNumbers'>
@@ -1130,7 +1130,7 @@ Navbar
           <!-- /Demo -->
         </ul>
         <b:if cond='data:widgets any (w =&gt; w.sectionId == "b-section-navbar-search-form")'>
-          <div class='ml-auto my-2 my-md-0'>
+          <div class='ml-auto my-2 my-lg-0'>
             <b:section id='b-section-navbar-search-form' maxwidgets='1' name='Navbar: search form' showaddelement='no'>
               <b:widget id='BlogSearch1' locked='true' title='Search' type='BlogSearch' version='2' visible='true'>
                 <b:includable id='main'>
@@ -2645,7 +2645,7 @@ Default markups
       <b:loop values='data:labels' var='label'>
         <span b:whitespace='remove' class='label-size'>
           <b:class expr:name='"label-size-" + data:label.cssSize'/>
-          <a class='badge badge-default label-name' expr:href='data:label.url'>
+          <a class='badge badge-secondary label-name' expr:href='data:label.url'>
             <b:class cond='data:view.search.label == data:label.name' name='active'/>
             <data:label.name/>
             <b:if cond='data:this.showFreqNumbers'>
