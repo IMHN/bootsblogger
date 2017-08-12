@@ -69,19 +69,19 @@ $wg-title-font-size:             1rem !default;
 $wg-title-font-weight:           $font-weight-bold !default;
 $wg-title-line-height:           1.1 !default;
 
-$wg-title-h1:                    $font-size-h1 !default;
-$wg-title-h2:                    $font-size-h2 !default;
-$wg-title-h3:                    $font-size-h3 !default;
-$wg-title-h4:                    $font-size-h4 !default;
-$wg-title-h5:                    $font-size-h5 !default;
-$wg-title-h6:                    $font-size-h6 !default;
+$wg-title-h1:                    $h1-font-size !default;
+$wg-title-h2:                    $h2-font-size !default;
+$wg-title-h3:                    $h3-font-size !default;
+$wg-title-h4:                    $h4-font-size !default;
+$wg-title-h5:                    $h5-font-size !default;
+$wg-title-h6:                    $h6-font-size !default;
 
 // Colors
 
-$wg-light-color:                 $gray-lightest !default;
+$wg-light-color:                 $gray-100 !default;
 $wg-light-border:                darken($wg-light-color, 5%) !default;
 
-$wg-dark-color:                  $gray-dark !default;
+$wg-dark-color:                  $gray-800 !default;
 $wg-dark-border:                 darken($wg-dark-color, 5%) !default;
 
 $wg-white-color:                 $white !default;
