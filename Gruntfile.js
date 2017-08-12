@@ -29,11 +29,11 @@ module.exports = function(grunt) {
     scsslint: {
       options: {
         bundleExec: true,
-        config: 'scss/.scss-lint.yml',
+        config: '.scss-lint.yml',
         reporterOutput: null
       },
       bootstrap: {
-        src: ['scss/bootstrap/*.scss', '!scss/bootstrap/_normalize.scss']
+        src: 'scss/bootstrap/*.scss'
       },
       bootsblogger: {
         src: 'scss/bootsblogger/*.scss'
