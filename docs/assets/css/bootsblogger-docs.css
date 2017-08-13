@@ -1,21 +1,28 @@
-/* ==============================================
+/* ==========================================================================
    Navbar
-   ============================================== */
+   ========================================================================== */
 
 .bd-navbar {
   min-height: 4rem;
   background-color: #ff5722;
-  -webkit-box-shadow: 0 .5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .bd-navbar {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1030;
   }
+}
+
+.bd-navbar .navbar-brand {
+  color: #fff;
+}
+.bd-navbar .navbar-brand:focus,
+.bd-navbar .navbar-brand:hover {
+  color: #fff;
 }
 
 .bd-navbar .navbar-nav .nav-link {
@@ -25,27 +32,20 @@
 .bd-navbar .navbar-nav .nav-link:hover {
   color: #fff;
 }
+.bd-navbar .navbar-nav .nav-link.disabled {
+  color: #ffab91;
+}
+.bd-navbar .navbar-nav .show > .nav-link,
+.bd-navbar .navbar-nav .active > .nav-link,
+.bd-navbar .navbar-nav .nav-link.show,
 .bd-navbar .navbar-nav .nav-link.active {
   color: #fff;
 }
 
-.bd-navbar .navbar-toggler {
-  background-color: #ff7043;
-  border-color: #ff8a65;
-}
-.bd-navbar .navbar-toggler:focus,
-.bd-navbar .navbar-toggler:hover {
-  background-color: #ff8a65;
-  border-color: #ffab91;
-}
-.bd-navbar .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
 
-
-/* ==============================================
+/* ==========================================================================
    Jumbotron
-   ============================================== */
+   ========================================================================== */
 
 .bd-jumbotron {
   margin-bottom: 0;
@@ -81,9 +81,44 @@
 }
 
 
-/* ==============================================
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+.btn-bd {
+  color: #ff7043;
+  background-color: transparent;
+  border-color: #ff7043;
+}
+.btn-bd:active,
+.btn-bd:hover {
+  color: #fff;
+  background-color: #ff7043;
+  border-color: #ff7043;
+}
+.btn-bd:focus {
+  box-shadow: 0 0 0 3px rgba(255, 112, 67, 0.45);
+}
+
+.btn-bd-yellow {
+  color: #ffe484;
+  background-color: transparent;
+  border-color: #ffe484;
+}
+.btn-bd-yellow:active,
+.btn-bd-yellow:hover {
+  color: #463c34;
+  background-color: #ffe484;
+  border-color: #ffe484;
+}
+.btn-bd-yellow:focus {
+  box-shadow: 0 0 0 3px rgba(255, 228, 132, 0.45);
+}
+
+
+/* ==========================================================================
    Featurette
-   ============================================== */
+   ========================================================================== */
 
 .bd-featurette {
   padding-top: 3rem;
@@ -161,37 +196,9 @@
 }
 
 
-/* ==============================================
-   Buttons
-   ============================================== */
-
-.btn-bd {
-  font-weight: 500;
-  color: #ff7043;
-  border-color: #ff7043;
-}
-.btn-bd:active,
-.btn-bd:hover {
-  color: #fff;
-  background-color: #ff7043;
-  border-color: #ff7043;
-}
-
-.btn-bd-yellow {
-  color: #ffe484;
-  border-color: #ffe484;
-}
-.btn-bd-yellow:active,
-.btn-bd-yellow:hover {
-  color: #463c34;
-  background-color: #ffe484;
-  border-color: #ffe484;
-}
-
-
-/* ==============================================
+/* ==========================================================================
    Content
-   ============================================== */
+   ========================================================================== */
 
 .bd-title {
   margin-top: 1rem;
@@ -216,15 +223,33 @@
   }
 }
 
-.bd-content h2[id]::before,
-.bd-content h3[id]::before {
-  position: relative;
-  z-index: -1;
+.bd-content > h2[id],
+.bd-content > h3[id],
+.bd-content > h4[id] {
+  pointer-events: none;
+}
+.bd-content > h2[id] > div,
+.bd-content > h2[id] > a,
+.bd-content > h3[id] > div,
+.bd-content > h3[id] > a,
+.bd-content > h4[id] > div,
+.bd-content > h4[id] > a {
+  pointer-events: auto;
+}
+.bd-content > h2[id]::before,
+.bd-content > h3[id]::before,
+.bd-content > h4[id]::before {
   display: block;
   height: 6rem;
   margin-top: -6rem;
   visibility: hidden;
   content: "";
+}
+.bd-content > h2:not(:first-child) {
+  margin-top: 3rem;
+}
+.bd-content > h3 {
+  margin-top: 1.5rem;
 }
 
 .bd-content > table {
@@ -261,13 +286,6 @@
   white-space: nowrap;
 }
 
-.bd-content > h2:not(:first-child) {
-  margin-top: 3rem;
-}
-.bd-content > h3 {
-  margin-top: 1.5rem;
-}
-
 .bd-content > ol li,
 .bd-content > ul li {
   margin-bottom: .25rem;
@@ -297,43 +315,13 @@
 }
 
 
-/* ==============================================
+/* ==========================================================================
    Highlight and example
-   ============================================== */
+   ========================================================================== */
 
 .bd-highlight {
   background-color: rgba(239,108,0,.15);
   border: 1px solid rgba(239,108,0,.15);
-}
-
-.highlight {
-  padding: 1rem;
-  margin: 1rem -15px;
-  background-color: #f7f7f9;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-@media (min-width: 576px) {
-  .highlight {
-     padding: 1.5rem;
-     margin-right: 0;
-     margin-left: 0;
-  }
-}
-
-.highlight pre {
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: transparent;
-  border: 0;
-}
-.highlight pre code {
-  font-size: inherit;
-  color: #292b2c;
-}
-
-.table-responsive .highlight pre {
-  white-space: normal;
 }
 
 .bd-clipboard {
@@ -341,15 +329,11 @@
   display: none;
   float: right;
 }
-.bd-clipboard + .highlight {
-  margin-top: 0;
-}
 @media (min-width: 768px) {
   .bd-clipboard {
     display: block;
   }
 }
-
 .btn-clipboard {
   position: absolute;
   top: .5rem;
@@ -390,12 +374,43 @@
     border-width: .2rem;
   }
 }
+.bd-example + p {
+  margin-top: 2rem;
+}
+
+.highlight {
+  padding: 1rem;
+  margin: 1rem -15px;
+  background-color: #f7f7f9;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+@media (min-width: 576px) {
+  .highlight {
+     padding: 1.5rem;
+     margin-right: 0;
+     margin-left: 0;
+  }
+}
+.highlight pre {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0;
+}
+.highlight pre code {
+  font-size: inherit;
+  color: #292b2c;
+}
+.bd-clipboard + .highlight {
+  margin-top: 0;
+}
+.table-responsive .highlight pre {
+  white-space: normal;
+}
 .bd-example + .highlight,
 .bd-example + .clipboard + .highlight {
   margin-top: 0;
-}
-.bd-example + p {
-  margin-top: 2rem;
 }
 
 .hll { background-color: #ffc; }
@@ -479,9 +494,9 @@
 }
 
 
-/* ==============================================
+/* ==========================================================================
    Sidebar
-   ============================================== */
+   ========================================================================== */
 
 .bd-sidebar {
   padding-right: 0;
@@ -590,9 +605,9 @@
 }
 
 
-/* ==============================================
+/* ==========================================================================
    Footer
-   ============================================== */
+   ========================================================================== */
 
 .bd-footer {
   padding: 4rem 0;
@@ -603,7 +618,6 @@
   background-color: #f7f7f7;
   border-top: 1px solid rgba(0,0,0,.1);
 }
-
 .bd-home .bd-footer {
   margin-top: 0;
 }
@@ -638,14 +652,13 @@
 }
 
 
-/* ==============================================
+/* ==========================================================================
    AnchorJS
-   ============================================== */
+   ========================================================================== */
 
 .anchorjs-link {
   color: inherit;
 }
-
 @media (max-width: 480px) {
   .anchorjs-link {
     display: none;
