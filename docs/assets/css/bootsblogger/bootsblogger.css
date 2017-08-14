@@ -467,6 +467,22 @@
   color: #000;
 }
 
+.wg-title-blue > .widget > .title {
+  color: #007bff;
+}
+
+.wg-title-indigo > .widget > .title {
+  color: #6610f2;
+}
+
+.wg-title-purple > .widget > .title {
+  color: #6f42c1;
+}
+
+.wg-title-pink > .widget > .title {
+  color: #e83e8c;
+}
+
 .wg-title-red > .widget > .title {
   color: #dc3545;
 }
@@ -483,20 +499,12 @@
   color: #28a745;
 }
 
-.wg-title-blue > .widget > .title {
-  color: #007bff;
-}
-
 .wg-title-teal > .widget > .title {
   color: #20c997;
 }
 
-.wg-title-pink > .widget > .title {
-  color: #e83e8c;
-}
-
-.wg-title-purple > .widget > .title {
-  color: #6f42c1;
+.wg-title-cyan > .widget > .title {
+  color: #17a2b8;
 }
 
 .wg-title-h1 > .widget > .title {
@@ -574,6 +582,26 @@
   border-color: black;
 }
 
+.wg-box-blue > .widget {
+  background-color: #007bff;
+  border-color: #006fe6;
+}
+
+.wg-box-indigo > .widget {
+  background-color: #6610f2;
+  border-color: #5b0cdd;
+}
+
+.wg-box-purple > .widget {
+  background-color: #6f42c1;
+  border-color: #643ab0;
+}
+
+.wg-box-pink > .widget {
+  background-color: #e83e8c;
+  border-color: #e5277e;
+}
+
 .wg-box-red > .widget {
   background-color: #dc3545;
   border-color: #d32535;
@@ -594,24 +622,14 @@
   border-color: #23923d;
 }
 
-.wg-box-blue > .widget {
-  background-color: #007bff;
-  border-color: #006fe6;
-}
-
 .wg-box-teal > .widget {
   background-color: #20c997;
   border-color: #1cb386;
 }
 
-.wg-box-pink > .widget {
-  background-color: #e83e8c;
-  border-color: #e5277e;
-}
-
-.wg-box-purple > .widget {
-  background-color: #6f42c1;
-  border-color: #643ab0;
+.wg-box-cyan > .widget {
+  background-color: #17a2b8;
+  border-color: #148ea1;
 }
 
 .wg-box-outline-light > .widget {
@@ -634,6 +652,26 @@
   border-color: #000;
 }
 
+.wg-box-outline-blue > .widget {
+  background-color: transparent;
+  border-color: #007bff;
+}
+
+.wg-box-outline-indigo > .widget {
+  background-color: transparent;
+  border-color: #6610f2;
+}
+
+.wg-box-outline-purple > .widget {
+  background-color: transparent;
+  border-color: #6f42c1;
+}
+
+.wg-box-outline-pink > .widget {
+  background-color: transparent;
+  border-color: #e83e8c;
+}
+
 .wg-box-outline-red > .widget {
   background-color: transparent;
   border-color: #dc3545;
@@ -654,24 +692,14 @@
   border-color: #28a745;
 }
 
-.wg-box-outline-blue > .widget {
-  background-color: transparent;
-  border-color: #007bff;
-}
-
 .wg-box-outline-teal > .widget {
   background-color: transparent;
   border-color: #20c997;
 }
 
-.wg-box-outline-pink > .widget {
+.wg-box-outline-cyan > .widget {
   background-color: transparent;
-  border-color: #e83e8c;
-}
-
-.wg-box-outline-purple > .widget {
-  background-color: transparent;
-  border-color: #6f42c1;
+  border-color: #17a2b8;
 }
 
 .wg-panel > .widget {
@@ -797,6 +825,42 @@
   border-color: black;
 }
 
+.wg-panel-blue > .widget > .title {
+  background-color: #007bff;
+  border-color: #006fe6;
+}
+.wg-panel-blue > .widget > .widget-content {
+  background-color: #fff;
+  border-color: #006fe6;
+}
+
+.wg-panel-indigo > .widget > .title {
+  background-color: #6610f2;
+  border-color: #5b0cdd;
+}
+.wg-panel-indigo > .widget > .widget-content {
+  background-color: #fff;
+  border-color: #5b0cdd;
+}
+
+.wg-panel-purple > .widget > .title {
+  background-color: #6f42c1;
+  border-color: #643ab0;
+}
+.wg-panel-purple > .widget > .widget-content {
+  background-color: #fff;
+  border-color: #643ab0;
+}
+
+.wg-panel-pink > .widget > .title {
+  background-color: #e83e8c;
+  border-color: #e5277e;
+}
+.wg-panel-pink > .widget > .widget-content {
+  background-color: #fff;
+  border-color: #e5277e;
+}
+
 .wg-panel-red > .widget > .title {
   background-color: #dc3545;
   border-color: #d32535;
@@ -833,15 +897,6 @@
   border-color: #23923d;
 }
 
-.wg-panel-blue > .widget > .title {
-  background-color: #007bff;
-  border-color: #006fe6;
-}
-.wg-panel-blue > .widget > .widget-content {
-  background-color: #fff;
-  border-color: #006fe6;
-}
-
 .wg-panel-teal > .widget > .title {
   background-color: #20c997;
   border-color: #1cb386;
@@ -851,22 +906,13 @@
   border-color: #1cb386;
 }
 
-.wg-panel-pink > .widget > .title {
-  background-color: #e83e8c;
-  border-color: #e5277e;
+.wg-panel-cyan > .widget > .title {
+  background-color: #17a2b8;
+  border-color: #148ea1;
 }
-.wg-panel-pink > .widget > .widget-content {
+.wg-panel-cyan > .widget > .widget-content {
   background-color: #fff;
-  border-color: #e5277e;
-}
-
-.wg-panel-purple > .widget > .title {
-  background-color: #6f42c1;
-  border-color: #643ab0;
-}
-.wg-panel-purple > .widget > .widget-content {
-  background-color: #fff;
-  border-color: #643ab0;
+  border-color: #148ea1;
 }
 
 .wg-panel-outline-light > .widget > .title {
@@ -905,6 +951,42 @@
   border-color: #000;
 }
 
+.wg-panel-outline-blue > .widget > .title {
+  background-color: transparent;
+  border-color: #007bff;
+}
+.wg-panel-outline-blue > .widget > .widget-content {
+  background-color: transparent;
+  border-color: #007bff;
+}
+
+.wg-panel-outline-indigo > .widget > .title {
+  background-color: transparent;
+  border-color: #6610f2;
+}
+.wg-panel-outline-indigo > .widget > .widget-content {
+  background-color: transparent;
+  border-color: #6610f2;
+}
+
+.wg-panel-outline-purple > .widget > .title {
+  background-color: transparent;
+  border-color: #6f42c1;
+}
+.wg-panel-outline-purple > .widget > .widget-content {
+  background-color: transparent;
+  border-color: #6f42c1;
+}
+
+.wg-panel-outline-pink > .widget > .title {
+  background-color: transparent;
+  border-color: #e83e8c;
+}
+.wg-panel-outline-pink > .widget > .widget-content {
+  background-color: transparent;
+  border-color: #e83e8c;
+}
+
 .wg-panel-outline-red > .widget > .title {
   background-color: transparent;
   border-color: #dc3545;
@@ -941,15 +1023,6 @@
   border-color: #28a745;
 }
 
-.wg-panel-outline-blue > .widget > .title {
-  background-color: transparent;
-  border-color: #007bff;
-}
-.wg-panel-outline-blue > .widget > .widget-content {
-  background-color: transparent;
-  border-color: #007bff;
-}
-
 .wg-panel-outline-teal > .widget > .title {
   background-color: transparent;
   border-color: #20c997;
@@ -959,22 +1032,13 @@
   border-color: #20c997;
 }
 
-.wg-panel-outline-pink > .widget > .title {
+.wg-panel-outline-cyan > .widget > .title {
   background-color: transparent;
-  border-color: #e83e8c;
+  border-color: #17a2b8;
 }
-.wg-panel-outline-pink > .widget > .widget-content {
+.wg-panel-outline-cyan > .widget > .widget-content {
   background-color: transparent;
-  border-color: #e83e8c;
-}
-
-.wg-panel-outline-purple > .widget > .title {
-  background-color: transparent;
-  border-color: #6f42c1;
-}
-.wg-panel-outline-purple > .widget > .widget-content {
-  background-color: transparent;
-  border-color: #6f42c1;
+  border-color: #17a2b8;
 }
 
 .wg-1,
