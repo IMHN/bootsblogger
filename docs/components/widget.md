@@ -1128,7 +1128,7 @@ Tambahkan `.wg-equal-height-cols` untuk membuat kolom sama tinggi.
 Gunakan `.wg-section-no-mb` untuk menghilangkan *margin* bawah pada widget baris terakhir.
 
 <div class="bd-example">
-  <div class="p-3 bg-faded d-inline-block">
+  <div class="p-3 bg-light d-inline-block">
     <div class="wg wg-box wg-box-orange wg-title-black wg-section-no-mb">
       <div class="widget">
         <h3 class="title">Widget title</h3>
@@ -1147,7 +1147,7 @@ Gunakan `.wg-section-no-mb` untuk menghilangkan *margin* bawah pada widget baris
 </div><!-- /.bd-example -->
 
 {% highlight html %}
-<div class='p-3 bg-faded'>
+<div class='p-3 bg-light'>
   <b:section class='wg wg-box wg-box-orange wg-title-black wg-section-no-mb' id='sectionId'></b:section>
 </div>
 {% endhighlight %}
@@ -1155,7 +1155,7 @@ Gunakan `.wg-section-no-mb` untuk menghilangkan *margin* bawah pada widget baris
 Grup:
 
 <div class="bd-example">
-  <div class="p-3 bg-faded d-inline-block">
+  <div class="p-3 bg-light d-inline-block">
     <div class="wg wg-panel wg-panel-group wg-panel-orange wg-title-black wg-section-no-mb">
       <div class="widget">
         <h3 class="title">Widget title</h3>
@@ -1174,7 +1174,7 @@ Grup:
 </div><!-- /.bd-example -->
 
 {% highlight html %}
-<div class='p-3 bg-faded'>
+<div class='p-3 bg-light'>
   <b:section class='wg wg-panel wg-panel-group wg-panel-orange wg-title-black wg-section-no-mb' id='sectionId'></b:section>
 </div>
 {% endhighlight %}
@@ -1182,7 +1182,7 @@ Grup:
 Dengan grid:
 
 <div class="bd-example">
-  <div class="p-3 bg-faded">
+  <div class="p-3 bg-light">
     <div class="wg wg-panel wg-panel-orange wg-title-black wg-sm-6 wg-section-no-mb wg-grid-example">
       <div class="widget">
         <h3 class="title">Widget title</h3>
@@ -1213,7 +1213,7 @@ Dengan grid:
 </div><!-- /.bd-example -->
 
 {% highlight html %}
-<div class='p-3 bg-faded'>
+<div class='p-3 bg-light'>
   <b:section class='wg wg-panel wg-panel-orange wg-title-black wg-sm-6 wg-section-no-mb' id='sectionId'></b:section>
 </div>
 {% endhighlight %}

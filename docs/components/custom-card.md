@@ -19,14 +19,14 @@ Gunakan `.card-title-link`.
 
 {% example html %}
 <div class="card mb-3">
-  <div class="card-block">
+  <div class="card-body">
     <h2 class="card-title"><a class="card-title-link" href="#">Card title</a></h2>
     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
 </div>
 
 <div class="card card-inverse card-primary">
-  <div class="card-block">
+  <div class="card-body">
     <h2 class="card-title"><a class="card-title-link" href="#">Card title</a></h2>
     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
@@ -70,7 +70,7 @@ Pelajari beberapa contoh di bawah ini.
         </div>
       </div>
       <div class="col-9 col-sm-8">
-        <div class="card-block">
+        <div class="card-body">
           <h4 class="card-title">Card title</h4>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
@@ -81,7 +81,7 @@ Pelajari beberapa contoh di bawah ini.
   <div class="card">
     <div class="row no-gutters">
       <div class="col-9 col-sm-8">
-        <div class="card-block">
+        <div class="card-body">
           <h4 class="card-title">Card title</h4>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
@@ -104,7 +104,7 @@ Pelajari beberapa contoh di bawah ini.
       </div>
     </div>
     <div class="col-9 col-sm-8">
-      <div class="card-block">
+      <div class="card-body">
         <h4 class="card-title">...</h4>
         <p class="card-text">...</p>
       </div>
@@ -115,7 +115,7 @@ Pelajari beberapa contoh di bawah ini.
 <div class="card">
   <div class="row no-gutters">
     <div class="col-9 col-sm-8">
-      <div class="card-block">
+      <div class="card-body">
       <h4 class="card-title">...</h4>
       <p class="card-text">...</p>
       </div>
@@ -140,7 +140,7 @@ Pelajari beberapa contoh di bawah ini.
         </div>
       </div>
       <div class="col-sm-9 col-md-8">
-        <div class="card-block">
+        <div class="card-body">
           <h4 class="card-title">Card title</h4>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
@@ -151,7 +151,7 @@ Pelajari beberapa contoh di bawah ini.
   <div class="card">
     <div class="row no-gutters">
       <div class="col-md-9 col-lg-8">
-        <div class="card-block">
+        <div class="card-body">
           <h4 class="card-title">Card title</h4>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
@@ -175,7 +175,7 @@ Pelajari beberapa contoh di bawah ini.
       </div>
     </div>
     <div class="col-sm-9 col-md-8">
-      <div class="card-block">
+      <div class="card-body">
         <h4 class="card-title">...</h4>
         <p class="card-text">...</p>
       </div>
@@ -187,7 +187,7 @@ Pelajari beberapa contoh di bawah ini.
 <div class="card">
   <div class="row no-gutters">
     <div class="col-md-9 col-lg-8">
-      <div class="card-block">
+      <div class="card-body">
       <h4 class="card-title">...</h4>
       <p class="card-text">...</p>
       </div>
@@ -212,7 +212,7 @@ Tampilkan gambar dengan CSS `background-image`. Tambahkan `.card-img-cover`. Mem
         <div class="card-block-img-left-sm card-img-cover holderjs" style="min-height: 180px;" data-background-src="?holder.js/800x180/?text=B"></div>
       </div>
       <div class="col-sm-9 col-md-8">
-        <div class="card-block">
+        <div class="card-body">
           <h4 class="card-title">Card title</h4>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
@@ -228,7 +228,7 @@ Tampilkan gambar dengan CSS `background-image`. Tambahkan `.card-img-cover`. Mem
       <div class="card-block-img-left-sm card-img-cover" style="min-height: 180px; background-image: url(...);"></div>
     </div>
     <div class="col-sm-9 col-md-8">
-      <div class="card-block">
+      <div class="card-body">
         <h4 class="card-title">...</h4>
         <p class="card-text">...</p>
       </div>

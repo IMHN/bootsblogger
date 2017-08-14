@@ -21,7 +21,7 @@ Tentukan skema warna navmenu dengan mengeset `background-color` dan `border-colo
 Gunakan `.navmenu-light` atau `.navmenu-dark` untuk menyesuaikan warna teks dengan warna latar belakang. `.navmenu-light` untuk latar belakang yang berwarna terang dan `.navmenu-dark` untuk latar belakang yang berwarna gelap.
 
 <div class="bd-example">
-  <nav class="navmenu navmenu-dark bg-inverse mb-3">
+  <nav class="navmenu navmenu-dark bg-dark mb-3">
     <a class="navmenu-brand" href="#">Bootsblogger</a>
     <div class="navmenu-nav">
       <a class="nav-item nav-link" href="#">Nav item</a>
@@ -62,7 +62,7 @@ Gunakan `.navmenu-light` atau `.navmenu-dark` untuk menyesuaikan warna teks deng
 </div>
 
 {% highlight html %}
-<nav class="navmenu navmenu-dark bg-inverse">
+<nav class="navmenu navmenu-dark bg-dark">
   <!-- Navmenu content -->
 </nav>
 
@@ -82,7 +82,7 @@ Gunakan `.navmenu-light` atau `.navmenu-dark` untuk menyesuaikan warna teks deng
 As a link:
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <a class="navmenu-brand" href="#">Bootsblogger</a>
 </nav>
 {% endexample %}
@@ -90,7 +90,7 @@ As a link:
 As a heading:
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <h1 class="navmenu-brand mb-0">Bootsblogger</h1>
 </nav>
 {% endexample %}
@@ -98,7 +98,7 @@ As a heading:
 Just an image:
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <a class="navmenu-brand text-center" href="#">
     <img src="{{ site.baseurl }}/assets/brand/bootsblogger-solid.svg" width="30" height="30" alt="">
   </a>
@@ -108,7 +108,7 @@ Just an image:
 Image and text:
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <a class="navmenu-brand" href="#">
     <img src="{{ site.baseurl }}/assets/brand/bootsblogger-solid.svg" width="30" height="30" alt="">
     <span class="ml-1">Bootsblogger</span>
@@ -119,7 +119,7 @@ Image and text:
 ### Nav
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <div class="navmenu-nav">
     <a class="nav-item nav-link" href="#">Nav item</a>
     <a class="nav-item nav-link" href="#">Nav item again</a>
@@ -131,7 +131,7 @@ Image and text:
 *Markup* navmenu-nav sangat fleksibel, Anda dapat menulisnya dengan beberapa cara berikut:
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <!-- 1 -->
   <div class="navmenu-nav">
     <a class="nav-item nav-link" href="#">Nav item</a>
@@ -170,7 +170,7 @@ Image and text:
 **Small nav** - *Nav items* dengan *padding* atas dan bawah yang lebih kecil, tambahkan `.nav-link-sm` ke `.nav-link`:
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <div class="navmenu-nav">
     <a class="nav-item nav-link nav-link-sm" href="#">Nav item</a>
     <a class="nav-item nav-link nav-link-sm" href="#">Nav item again</a>
@@ -182,7 +182,7 @@ Image and text:
 **Bordered nav** - *Nav items* dengan *border* atas dan bawah, tambahkan `.nav-item-bordered` ke `.nav-item`:
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <div class="navmenu-nav">
     <a class="nav-item nav-item-bordered nav-link" href="#">Nav item</a>
     <a class="nav-item nav-item-bordered nav-link" href="#">Nav item again</a>
@@ -206,7 +206,7 @@ Image and text:
 ### Headers
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <h6 class="navmenu-header">Header</h6>
   <div class="navmenu-nav">
     <a class="nav-item nav-link" href="#">Nav item</a>
@@ -219,7 +219,7 @@ Image and text:
 ### Dividers
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <div class="navmenu-nav">
     <a class="nav-item nav-link" href="#">Nav item</a>
     <a class="nav-item nav-link" href="#">Nav item again</a>
@@ -241,7 +241,7 @@ Image and text:
 Gunakan `.navmenu-content` untuk membuat elemen lainnya, lihat beberapa contoh berikut:
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <div class="navmenu-content">
     <form>
       <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for...">
@@ -251,7 +251,7 @@ Gunakan `.navmenu-content` untuk membuat elemen lainnya, lihat beberapa contoh b
 {% endexample %}
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <div class="navmenu-content">
     <form class="d-flex align-items-center">
       <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for...">
@@ -262,7 +262,7 @@ Gunakan `.navmenu-content` untuk membuat elemen lainnya, lihat beberapa contoh b
 {% endexample %}
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <div class="navmenu-content">
     <a class="btn btn-block btn-primary" href="#">Go somewhere</a>
   </div>
@@ -270,7 +270,7 @@ Gunakan `.navmenu-content` untuk membuat elemen lainnya, lihat beberapa contoh b
 {% endexample %}
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <div class="navmenu-content">
     <p class="text-success mb-0">Hello, world!</p>
   </div>
@@ -280,7 +280,7 @@ Gunakan `.navmenu-content` untuk membuat elemen lainnya, lihat beberapa contoh b
 ### Mix and match
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <a class="navmenu-brand" href="#">Bootsblogger</a>
 
   <div class="navmenu-divider"></div>
@@ -327,7 +327,7 @@ Membutuhkan [Bootstrap collapse plugin](https://v4-alpha.getbootstrap.com/compon
 Example 1:
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <a class="navmenu-brand" href="#">Bootsblogger</a>
   <div class="navmenu-nav">
     <a class="nav-item nav-link dropdown-toggle" data-toggle="collapse" href="#navmenuNavCollapseDemo01" aria-expanded="false" aria-controls="navmenuNavCollapseDemo01">
@@ -349,7 +349,7 @@ Example 1:
 Example 2:
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <a class="navmenu-brand" href="#">Bootsblogger</a>
   <div class="navmenu-nav">
     <a class="nav-item nav-link dropdown-toggle" data-toggle="collapse" href="#navmenuNavCollapseDemo02" aria-expanded="false" aria-controls="navmenuNavCollapseDemo02">
@@ -371,7 +371,7 @@ Example 2:
 Example 3:
 
 {% example html %}
-<nav class="navmenu navmenu-dark bg-inverse">
+<nav class="navmenu navmenu-dark bg-dark">
   <a class="navmenu-brand" href="#">Bootsblogger</a>
   <div class="navmenu-nav">
     <div class="nav-item nav-item-bordered">
@@ -401,7 +401,7 @@ Example 3:
 Membutuhkan [Bootstrap dropdown plugin](https://v4-alpha.getbootstrap.com/components/dropdowns/).
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <a class="navmenu-brand" href="#">Bootsblogger</a>
   <ul class="navmenu-nav">
     <li class="nav-item"><a class="nav-link" href="#">Nav item</a></li>
@@ -433,7 +433,7 @@ Membutuhkan [Bootstrap dropdown plugin](https://v4-alpha.getbootstrap.com/compon
 ## Placement
 
 {% example html %}
-<nav class="navmenu navmenu-fixed-left navmenu-light bg-faded" style="width: 15rem;">
+<nav class="navmenu navmenu-fixed-left navmenu-light bg-light" style="width: 15rem;">
   <a class="navmenu-brand" href="#">Fixed left</a>
   <div class="navmenu-nav">
     <a class="nav-item nav-link" href="#">Nav item</a>
@@ -444,7 +444,7 @@ Membutuhkan [Bootstrap dropdown plugin](https://v4-alpha.getbootstrap.com/compon
 {% endexample %}
 
 {% example html %}
-<nav class="navmenu navmenu-fixed-right navmenu-light bg-faded" style="width: 15rem;">
+<nav class="navmenu navmenu-fixed-right navmenu-light bg-light" style="width: 15rem;">
   <a class="navmenu-brand" href="#">Fixed right</a>
   <div class="navmenu-nav">
     <a class="nav-item nav-link" href="#">Nav item</a>
@@ -467,7 +467,7 @@ Kelas untuk `xs` tidak tersedia (`.navmenu-expand`).
 Tidak membutuhkan `.navmenu-expand`, `.navmenu-toggler`, dan `.navmenu-collapse`.
 
 {% example html %}
-<nav class="navmenu navmenu-light bg-faded">
+<nav class="navmenu navmenu-light bg-light">
   <div class="navmenu-content">
     <button class="btn btn-secondary btn-block" type="button" data-toggle="collapse" data-target="#navmenuTogglerDemo0" aria-controls="navmenuTogglerDemo0" aria-expanded="false" aria-label="Toggle navigation">Toggle nav</button>
   </div>
@@ -485,7 +485,7 @@ Tidak membutuhkan `.navmenu-expand`, `.navmenu-toggler`, dan `.navmenu-collapse`
 `sm` (&lt;576px):
 
 {% example html %}
-<nav class="navmenu navmenu-expand-sm navmenu-light bg-faded">
+<nav class="navmenu navmenu-expand-sm navmenu-light bg-light">
   <div class="navmenu-content navmenu-toggler">
     <button class="btn btn-secondary btn-block" type="button" data-toggle="collapse" data-target="#navmenuTogglerDemo01" aria-controls="navmenuTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">Toggle nav</button>
   </div>
@@ -503,7 +503,7 @@ Tidak membutuhkan `.navmenu-expand`, `.navmenu-toggler`, dan `.navmenu-collapse`
 `md` (&lt;768px):
 
 {% example html %}
-<nav class="navmenu navmenu-expand-md navmenu-light bg-faded">
+<nav class="navmenu navmenu-expand-md navmenu-light bg-light">
   <div class="navmenu-content navmenu-toggler">
     <button class="btn btn-secondary btn-block" type="button" data-toggle="collapse" data-target="#navmenuTogglerDemo02" aria-controls="navmenuTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">Toggle nav</button>
   </div>
@@ -521,7 +521,7 @@ Tidak membutuhkan `.navmenu-expand`, `.navmenu-toggler`, dan `.navmenu-collapse`
 `lg` (&lt;992px):
 
 {% example html %}
-<nav class="navmenu navmenu-expand-lg navmenu-light bg-faded">
+<nav class="navmenu navmenu-expand-lg navmenu-light bg-light">
   <div class="navmenu-content navmenu-toggler">
     <button class="btn btn-secondary btn-block" type="button" data-toggle="collapse" data-target="#navmenuTogglerDemo03" aria-controls="navmenuTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">Toggle nav</button>
   </div>
@@ -539,7 +539,7 @@ Tidak membutuhkan `.navmenu-expand`, `.navmenu-toggler`, dan `.navmenu-collapse`
 `xl` (&lt;1200px):
 
 {% example html %}
-<nav class="navmenu navmenu-expand-xl navmenu-light bg-faded">
+<nav class="navmenu navmenu-expand-xl navmenu-light bg-light">
   <div class="navmenu-content navmenu-toggler">
     <button class="btn btn-secondary btn-block" type="button" data-toggle="collapse" data-target="#navmenuTogglerDemo04" aria-controls="navmenuTogglerDemo04" aria-expanded="false" aria-label="Toggle navigation">Toggle nav</button>
   </div>
