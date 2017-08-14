@@ -44,6 +44,18 @@
 .wg-title-black {
   @include wg-title-variant($wg-black-color)
 }
+.wg-title-blue {
+  @include wg-title-variant($wg-blue-color)
+}
+.wg-title-indigo {
+  @include wg-title-variant($wg-indigo-color)
+}
+.wg-title-purple {
+  @include wg-title-variant($wg-purple-color)
+}
+.wg-title-pink {
+  @include wg-title-variant($wg-pink-color)
+}
 .wg-title-red {
   @include wg-title-variant($wg-red-color)
 }
@@ -56,17 +68,11 @@
 .wg-title-green {
   @include wg-title-variant($wg-green-color)
 }
-.wg-title-blue {
-  @include wg-title-variant($wg-blue-color)
-}
 .wg-title-teal {
   @include wg-title-variant($wg-teal-color)
 }
-.wg-title-pink {
-  @include wg-title-variant($wg-pink-color)
-}
-.wg-title-purple {
-  @include wg-title-variant($wg-purple-color)
+.wg-title-cyan {
+  @include wg-title-variant($wg-cyan-color)
 }
 
 // Font size
@@ -147,6 +153,18 @@
 .wg-box-black {
   @include wg-box-variant($wg-black-color, $wg-black-border)
 }
+.wg-box-blue {
+  @include wg-box-variant($wg-blue-color, $wg-blue-border)
+}
+.wg-box-indigo {
+  @include wg-box-variant($wg-indigo-color, $wg-indigo-border)
+}
+.wg-box-purple {
+  @include wg-box-variant($wg-purple-color, $wg-purple-border)
+}
+.wg-box-pink {
+  @include wg-box-variant($wg-pink-color, $wg-pink-border)
+}
 .wg-box-red {
   @include wg-box-variant($wg-red-color, $wg-red-border)
 }
@@ -159,17 +177,11 @@
 .wg-box-green {
   @include wg-box-variant($wg-green-color, $wg-green-border)
 }
-.wg-box-blue {
-  @include wg-box-variant($wg-blue-color, $wg-blue-border)
-}
 .wg-box-teal {
   @include wg-box-variant($wg-teal-color, $wg-teal-border)
 }
-.wg-box-pink {
-  @include wg-box-variant($wg-pink-color, $wg-pink-border)
-}
-.wg-box-purple {
-  @include wg-box-variant($wg-purple-color, $wg-purple-border)
+.wg-box-cyan {
+  @include wg-box-variant($wg-cyan-color, $wg-cyan-border)
 }
 
 // Remove all backgrounds
@@ -185,6 +197,18 @@
 .wg-box-outline-black {
   @include wg-box-outline-variant($wg-black-color)
 }
+.wg-box-outline-blue {
+  @include wg-box-outline-variant($wg-blue-color)
+}
+.wg-box-outline-indigo {
+  @include wg-box-outline-variant($wg-indigo-color)
+}
+.wg-box-outline-purple {
+  @include wg-box-outline-variant($wg-purple-color)
+}
+.wg-box-outline-pink {
+  @include wg-box-outline-variant($wg-pink-color)
+}
 .wg-box-outline-red {
   @include wg-box-outline-variant($wg-red-color)
 }
@@ -197,17 +221,11 @@
 .wg-box-outline-green {
   @include wg-box-outline-variant($wg-green-color)
 }
-.wg-box-outline-blue {
-  @include wg-box-outline-variant($wg-blue-color)
-}
 .wg-box-outline-teal {
   @include wg-box-outline-variant($wg-teal-color)
 }
-.wg-box-outline-pink {
-  @include wg-box-outline-variant($wg-pink-color)
-}
-.wg-box-outline-purple {
-  @include wg-box-outline-variant($wg-purple-color)
+.wg-box-outline-cyan {
+  @include wg-box-outline-variant($wg-cyan-color)
 }
 
 
@@ -330,6 +348,18 @@
 .wg-panel-black {
   @include wg-panel-variant($wg-black-color, $wg-black-border)
 }
+.wg-panel-blue {
+  @include wg-panel-variant($wg-blue-color, $wg-blue-border)
+}
+.wg-panel-indigo {
+  @include wg-panel-variant($wg-indigo-color, $wg-indigo-border)
+}
+.wg-panel-purple {
+  @include wg-panel-variant($wg-purple-color, $wg-purple-border)
+}
+.wg-panel-pink {
+  @include wg-panel-variant($wg-pink-color, $wg-pink-border)
+}
 .wg-panel-red {
   @include wg-panel-variant($wg-red-color, $wg-red-border)
 }
@@ -342,17 +372,11 @@
 .wg-panel-green {
   @include wg-panel-variant($wg-green-color, $wg-green-border)
 }
-.wg-panel-blue {
-  @include wg-panel-variant($wg-blue-color, $wg-blue-border)
-}
 .wg-panel-teal {
   @include wg-panel-variant($wg-teal-color, $wg-teal-border)
 }
-.wg-panel-pink {
-  @include wg-panel-variant($wg-pink-color, $wg-pink-border)
-}
-.wg-panel-purple {
-  @include wg-panel-variant($wg-purple-color, $wg-purple-border)
+.wg-panel-cyan {
+  @include wg-panel-variant($wg-cyan-color, $wg-cyan-border)
 }
 
 // Remove all backgrounds
@@ -368,6 +392,18 @@
 .wg-panel-outline-black {
   @include wg-panel-outline-variant($wg-black-color)
 }
+.wg-panel-outline-blue {
+  @include wg-panel-outline-variant($wg-blue-color)
+}
+.wg-panel-outline-indigo {
+  @include wg-panel-outline-variant($wg-indigo-color)
+}
+.wg-panel-outline-purple {
+  @include wg-panel-outline-variant($wg-purple-color)
+}
+.wg-panel-outline-pink {
+  @include wg-panel-outline-variant($wg-pink-color)
+}
 .wg-panel-outline-red {
   @include wg-panel-outline-variant($wg-red-color)
 }
@@ -380,17 +416,11 @@
 .wg-panel-outline-green {
   @include wg-panel-outline-variant($wg-green-color)
 }
-.wg-panel-outline-blue {
-  @include wg-panel-outline-variant($wg-blue-color)
-}
 .wg-panel-outline-teal {
   @include wg-panel-outline-variant($wg-teal-color)
 }
-.wg-panel-outline-pink {
-  @include wg-panel-outline-variant($wg-pink-color)
-}
-.wg-panel-outline-purple {
-  @include wg-panel-outline-variant($wg-purple-color)
+.wg-panel-outline-cyan {
+  @include wg-panel-outline-variant($wg-cyan-color)
 }
 
 

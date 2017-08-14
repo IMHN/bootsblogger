@@ -90,6 +90,18 @@ $wg-white-border:                rgba(0,0,0,.125) !default;
 $wg-black-color:                 $black !default;
 $wg-black-border:                darken($wg-black-color, 5%) !default;
 
+$wg-blue-color:                  $blue !default;
+$wg-blue-border:                 darken($wg-blue-color, 5%) !default;
+
+$wg-indigo-color:                $indigo !default;
+$wg-indigo-border:               darken($wg-indigo-color, 5%) !default;
+
+$wg-purple-color:                $purple !default;
+$wg-purple-border:               darken($wg-purple-color, 5%) !default;
+
+$wg-pink-color:                  $pink !default;
+$wg-pink-border:                 darken($wg-pink-color, 5%) !default;
+
 $wg-red-color:                   $red !default;
 $wg-red-border:                  darken($wg-red-color, 5%) !default;
 
@@ -102,17 +114,11 @@ $wg-yellow-border:               darken($wg-yellow-color, 5%) !default;
 $wg-green-color:                 $green !default;
 $wg-green-border:                darken($wg-green-color, 5%) !default;
 
-$wg-blue-color:                  $blue !default;
-$wg-blue-border:                 darken($wg-blue-color, 5%) !default;
-
 $wg-teal-color:                  $teal !default;
 $wg-teal-border:                 darken($wg-teal-color, 5%) !default;
 
-$wg-pink-color:                  $pink !default;
-$wg-pink-border:                 darken($wg-pink-color, 5%) !default;
-
-$wg-purple-color:                $purple !default;
-$wg-purple-border:               darken($wg-purple-color, 5%) !default;
+$wg-cyan-color:                  $cyan !default;
+$wg-cyan-border:                 darken($wg-cyan-color, 5%) !default;
 
 // Widget box
 
