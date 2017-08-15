@@ -9,15 +9,15 @@
 // Custom card
 //
 
-$card-title-link-color:               inherit !default;
-$card-title-link-hover-color:         $link-hover-color !default;
-$card-title-link-decoration:          none !default;
-$card-title-link-hover-decoration:    none !default;
+$card-title-link-light-color:               $gray-900 !default;
+$card-title-link-light-hover-color:         $link-hover-color !default;
+$card-title-link-light-decoration:          none !default;
+$card-title-link-light-hover-decoration:    none !default;
 
-$card-inverse-title-link-color:             #fff !default;
-$card-inverse-title-link-hover-color:       #fff !default;
-$card-inverse-title-link-decoration:        none !default;
-$card-inverse-title-link-hover-decoration:  none !default;
+$card-title-link-dark-color:             #fff !default;
+$card-title-link-dark-hover-color:       #fff !default;
+$card-title-link-dark-decoration:        none !default;
+$card-title-link-dark-hover-decoration:  none !default;
 
 
 //

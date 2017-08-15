@@ -2,23 +2,23 @@
 // Title links
 //
 
-.card:not(.card-inverse) .card-title-link {
-  color: $card-title-link-color;
-  text-decoration: $card-title-link-decoration;
+.card-title-link-light {
+  color: $card-title-link-light-color;
+  text-decoration: $card-title-link-light-decoration;
 
   @include hover-focus {
-    color: $card-title-link-hover-color;
-    text-decoration: $card-title-link-hover-decoration;
+    color: $card-title-link-light-hover-color;
+    text-decoration: $card-title-link-light-hover-decoration;
   }
 }
 
-.card.card-inverse .card-title-link {
-  color: $card-inverse-title-link-color;
-  text-decoration: $card-inverse-title-link-decoration;
+.card-title-link-dark {
+  color: $card-title-link-dark-color;
+  text-decoration: $card-title-link-dark-decoration;
 
   @include hover-focus {
-    color: $card-inverse-title-link-hover-color;
-    text-decoration: $card-inverse-title-link-hover-decoration;
+    color: $card-title-link-dark-hover-color;
+    text-decoration: $card-title-link-dark-hover-decoration;
   }
 }
 
@@ -38,7 +38,7 @@
 
   @if $min {
     @media (max-width: $min - 1px) {
-      .card .row:first-child .card-block-img-left#{$infix} {
+      .card .row:first-child .card-img-left-wrap#{$infix} {
         @include border-top-radius($card-inner-border-radius);
 
         .card-img-left {
@@ -46,7 +46,7 @@
         }
       }
 
-      .card .row:last-child .card-block-img-right#{$infix} {
+      .card .row:last-child .card-img-right-wrap#{$infix} {
         @include border-bottom-radius($card-inner-border-radius);
 
         .card-img-right {
@@ -57,7 +57,7 @@
   }
 
   @include media-breakpoint-up($breakpoint) {
-    .card-block-img-left#{$infix} {
+    .card-img-left-wrap#{$infix} {
       padding-top: $card-spacer-x;
       padding-bottom: $card-spacer-x;
       padding-left: $card-spacer-x;
@@ -68,7 +68,7 @@
       }
     }
 
-    .card-block-img-right#{$infix} {
+    .card-img-right-wrap#{$infix} {
       padding-top: $card-spacer-x;
       padding-right: $card-spacer-x;
       padding-bottom: $card-spacer-x;
