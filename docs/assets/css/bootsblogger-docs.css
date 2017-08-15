@@ -44,40 +44,43 @@
 
 
 /* ==========================================================================
-   Jumbotron
+   Masthead
    ========================================================================== */
 
-.bd-jumbotron {
-  margin-bottom: 0;
-  color: #fff;
-  text-align: center;
-  background-color: #ff5722;
+.bd-masthead {
+  position: relative;
+  padding: 3rem 15px;
+}
+@media (min-width: 576px) {
+  .bd-masthead {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 
-.bd-jumbotron .lead {
-  margin-right: auto;
-  margin-bottom: 2rem;
-  margin-left: auto;
+.bd-masthead h1 {
+  color: #ff6636;
+  line-height: 1;
 }
-.bd-jumbotron .lead:last-child {
-  margin-bottom: 0;
-}
-
-.bd-jumbotron-version {
-  margin-top: -1rem;
-  color: #ffab91;
-}
-
 @media (min-width: 768px) {
-  .bd-jumbotron .lead {
-    font-size: 1.5rem
+  .bd-masthead h1 {
+    font-size: 4rem;
   }
 }
-@media (min-width: 992px) {
-  .bd-jumbotron .lead {
-    width: 85%;
-    font-size: 2rem
-  }
+
+
+/* ==========================================================================
+   Bpbph
+   ========================================================================== */
+
+.bd-bpbph {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+.bd-bpbph .plus {
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 
@@ -123,22 +126,13 @@
 .bd-featurette {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #555;
   text-align: center;
-  background-color: #fff;
-}
-.bd-featurette + .bd-featurette {
-  border-top: 1px solid #eee;
 }
 
 .bd-featurette-title {
   margin-bottom: .5rem;
   font-size: 2rem;
   font-weight: normal;
-  color: #333;
-  text-align: center;
 }
 
 .bd-featurette .lead {
@@ -146,22 +140,9 @@
   margin-bottom: 2rem;
   margin-left: auto;
   font-size: 1rem;
-  text-align: center;
-}
-
-.bd-featurette h4 {
-  margin-top: 1rem;
-  margin-bottom: .5rem;
-  font-weight: normal;
-  color: #333;
 }
 
 @media (min-width: 768px) {
-  .bd-featurette {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-
   .bd-featurette-title {
     font-size: 2.5rem;
   }
@@ -174,20 +155,15 @@
   }
 }
 
-.bd-featurette-icon {
+.bd-featurette .row h4 {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-weight: normal;
+  color: #333;
+}
+.bd-featurette .row .fa {
   font-size: 6em;
   color: #ff7043;
-}
-
-.bd-featurette-bpbph {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  text-align: center;
-}
-.bd-featurette-bpbph .plus {
-  font-size: 2rem;
-  font-weight: 500;
-  color: #777;
 }
 
 .half-rule {
@@ -616,7 +592,6 @@
   color: #777;
   text-align: center;
   background-color: #f7f7f7;
-  border-top: 1px solid rgba(0,0,0,.1);
 }
 .bd-home .bd-footer {
   margin-top: 0;
@@ -624,6 +599,7 @@
 @media (min-width: 768px) {
   .bd-docs .bd-footer {
     margin-top: -1px;
+    border-top: 1px solid rgba(0,0,0,.1);
   }
 }
 
