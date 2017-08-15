@@ -132,7 +132,8 @@ p {
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
   cursor: help;
   border-bottom: 0;
 }
@@ -2200,6 +2201,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
@@ -2236,6 +2239,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
@@ -4114,6 +4119,8 @@ tbody.collapse.show {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
@@ -4126,9 +4133,9 @@ tbody.collapse.show {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-flex: 1;
-    -webkit-flex: 1 0 0%;
-        -ms-flex: 1 0 0%;
-            flex: 1 0 0%;
+    -webkit-flex: 1 0;
+        -ms-flex: 1 0;
+            flex: 1 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -4144,15 +4151,17 @@ tbody.collapse.show {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
   }
   .card-group .card {
     -webkit-box-flex: 1;
-    -webkit-flex: 1 0 0%;
-        -ms-flex: 1 0 0%;
-            flex: 1 0 0%;
+    -webkit-flex: 1 0;
+        -ms-flex: 1 0;
+            flex: 1 0;
   }
   .card-group .card + .card {
     margin-left: 0;
@@ -4640,9 +4649,9 @@ tbody.collapse.show {
 
 .media-body {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 0%;
-      -ms-flex: 1 1 0%;
-          flex: 1 1 0%;
+  -webkit-flex: 1 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
 }
 
 .list-group {
@@ -6156,7 +6165,6 @@ a.bg-dark:focus, a.bg-dark:hover {
 .align-self-auto {
   -webkit-align-self: auto !important;
       -ms-flex-item-align: auto !important;
-              -ms-grid-row-align: auto !important;
           align-self: auto !important;
 }
 
@@ -6175,7 +6183,6 @@ a.bg-dark:focus, a.bg-dark:hover {
 .align-self-center {
   -webkit-align-self: center !important;
       -ms-flex-item-align: center !important;
-              -ms-grid-row-align: center !important;
           align-self: center !important;
 }
 
@@ -6188,7 +6195,6 @@ a.bg-dark:focus, a.bg-dark:hover {
 .align-self-stretch {
   -webkit-align-self: stretch !important;
       -ms-flex-item-align: stretch !important;
-              -ms-grid-row-align: stretch !important;
           align-self: stretch !important;
 }
 
@@ -6351,7 +6357,6 @@ a.bg-dark:focus, a.bg-dark:hover {
   .align-self-sm-auto {
     -webkit-align-self: auto !important;
         -ms-flex-item-align: auto !important;
-                -ms-grid-row-align: auto !important;
             align-self: auto !important;
   }
 
@@ -6370,7 +6375,6 @@ a.bg-dark:focus, a.bg-dark:hover {
   .align-self-sm-center {
     -webkit-align-self: center !important;
         -ms-flex-item-align: center !important;
-                -ms-grid-row-align: center !important;
             align-self: center !important;
   }
 
@@ -6383,7 +6387,6 @@ a.bg-dark:focus, a.bg-dark:hover {
   .align-self-sm-stretch {
     -webkit-align-self: stretch !important;
         -ms-flex-item-align: stretch !important;
-                -ms-grid-row-align: stretch !important;
             align-self: stretch !important;
   }
 }
@@ -6546,7 +6549,6 @@ a.bg-dark:focus, a.bg-dark:hover {
   .align-self-md-auto {
     -webkit-align-self: auto !important;
         -ms-flex-item-align: auto !important;
-                -ms-grid-row-align: auto !important;
             align-self: auto !important;
   }
 
@@ -6565,7 +6567,6 @@ a.bg-dark:focus, a.bg-dark:hover {
   .align-self-md-center {
     -webkit-align-self: center !important;
         -ms-flex-item-align: center !important;
-                -ms-grid-row-align: center !important;
             align-self: center !important;
   }
 
@@ -6578,7 +6579,6 @@ a.bg-dark:focus, a.bg-dark:hover {
   .align-self-md-stretch {
     -webkit-align-self: stretch !important;
         -ms-flex-item-align: stretch !important;
-                -ms-grid-row-align: stretch !important;
             align-self: stretch !important;
   }
 }
@@ -6741,7 +6741,6 @@ a.bg-dark:focus, a.bg-dark:hover {
   .align-self-lg-auto {
     -webkit-align-self: auto !important;
         -ms-flex-item-align: auto !important;
-                -ms-grid-row-align: auto !important;
             align-self: auto !important;
   }
 
@@ -6760,7 +6759,6 @@ a.bg-dark:focus, a.bg-dark:hover {
   .align-self-lg-center {
     -webkit-align-self: center !important;
         -ms-flex-item-align: center !important;
-                -ms-grid-row-align: center !important;
             align-self: center !important;
   }
 
@@ -6773,7 +6771,6 @@ a.bg-dark:focus, a.bg-dark:hover {
   .align-self-lg-stretch {
     -webkit-align-self: stretch !important;
         -ms-flex-item-align: stretch !important;
-                -ms-grid-row-align: stretch !important;
             align-self: stretch !important;
   }
 }
@@ -6936,7 +6933,6 @@ a.bg-dark:focus, a.bg-dark:hover {
   .align-self-xl-auto {
     -webkit-align-self: auto !important;
         -ms-flex-item-align: auto !important;
-                -ms-grid-row-align: auto !important;
             align-self: auto !important;
   }
 
@@ -6955,7 +6951,6 @@ a.bg-dark:focus, a.bg-dark:hover {
   .align-self-xl-center {
     -webkit-align-self: center !important;
         -ms-flex-item-align: center !important;
-                -ms-grid-row-align: center !important;
             align-self: center !important;
   }
 
@@ -6968,7 +6963,6 @@ a.bg-dark:focus, a.bg-dark:hover {
   .align-self-xl-stretch {
     -webkit-align-self: stretch !important;
         -ms-flex-item-align: stretch !important;
-                -ms-grid-row-align: stretch !important;
             align-self: stretch !important;
   }
 }
