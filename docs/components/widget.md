@@ -591,7 +591,7 @@ Ubah `.wg-box-{color}` menjadi `.wg-box-outline-{color}`.
 <b:section class='wg wg-box wg-box-white wg-title-dark' id='sectionId'></b:section>
 {% endhighlight %}
 
-Tambahkan gadget **HTML/JavaScript**. Kemudian, buat *list group* menggunakan `.list-group-flush`:
+Markup:
 
 {% highlight html %}
 <div class="list-group list-group-flush">
@@ -953,7 +953,7 @@ Tambahkan `.wg-panel-group`.
 <b:section class='wg wg-panel wg-panel-purple wg-title-white' id='sectionId'></b:section>
 {% endhighlight %}
 
-Tambahkan gadget **HTML/JavaScript**. Kemudian, buat *list group* menggunakan `.list-group-flush`:
+Markup:
 
 {% highlight html %}
 <div class="list-group list-group-flush">

@@ -66,6 +66,8 @@ bootsblogger/
     └── skin.css
 {% endhighlight %}
 
+Ubahsuaikan semua kode sumber, kemudian [kompilasi]({{ site.baseurl }}/getting-started/build-tools/), dan pasang `dist/template.xml` di blog Anda.
+
 - **`dist/template.xml`** - Template terkompilasi.
 - **`docs/`** - Berkas-berkas dokumentasi.
 - **`scss/`** - Kode sumber CSS Bootstrap dan Bootsblogger yang akan dikompilasi ke dalam `template-src/includable/assets/css`.

@@ -7,8 +7,6 @@
 - title: Core template
   pages:
     - title: Overview
-    - title: Page types
-    - title: Body class
     - title: Post
     - title: Includable - Head
     - title: Includable - Post

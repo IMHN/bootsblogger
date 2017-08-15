@@ -6,8 +6,6 @@ group: components
 redirect_from: "/components/"
 ---
 
-Baca dokumentasi [Bootstrap card](https://v4-alpha.getbootstrap.com/components/card/).
-
 ## Contents
 
 * Will be replaced with the ToC, excluding the "Contents" header

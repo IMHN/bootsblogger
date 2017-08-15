@@ -120,18 +120,6 @@ Image and text:
 
 {% example html %}
 <nav class="navmenu navmenu-light bg-light">
-  <div class="navmenu-nav">
-    <a class="nav-item nav-link" href="#">Nav item</a>
-    <a class="nav-item nav-link" href="#">Nav item again</a>
-    <a class="nav-item nav-link" href="#">Another nav item</a>
-  </div>
-</nav>
-{% endexample %}
-
-*Markup* navmenu-nav sangat fleksibel, Anda dapat menulisnya dengan beberapa cara berikut:
-
-{% example html %}
-<nav class="navmenu navmenu-light bg-light">
   <!-- 1 -->
   <div class="navmenu-nav">
     <a class="nav-item nav-link" href="#">Nav item</a>
@@ -320,9 +308,48 @@ Gunakan `.navmenu-content` untuk membuat elemen lainnya, lihat beberapa contoh b
 </nav>
 {% endexample %}
 
-## Collapse
+{% example html %}
+<nav class="navmenu navmenu-dark bg-dark">
+  <a class="navmenu-brand" href="#">Bootsblogger</a>
 
-Membutuhkan [Bootstrap collapse plugin](https://v4-alpha.getbootstrap.com/components/collapse/).
+  <div class="navmenu-divider"></div>
+
+  <h6 class="navmenu-header">Nav</h6>
+  <div class="navmenu-nav">
+    <a class="nav-item nav-link" href="#">Nav item</a>
+    <a class="nav-item nav-link" href="#">Nav item again</a>
+    <a class="nav-item nav-link" href="#">Another nav item</a>
+  </div>
+
+  <div class="navmenu-divider"></div>
+
+  <h6 class="navmenu-header">Form</h6>
+  <div class="navmenu-content">
+    <form>
+      <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for...">
+    </form>
+  </div>
+
+  <div class="navmenu-divider"></div>
+
+  <h6 class="navmenu-header">Button</h6>
+  <div class="navmenu-content d-flex flex-wrap flex-column">
+    <div class="btn-group">
+      <a class="btn btn-primary w-100" href="#">Action 1</a>
+      <a class="btn btn-primary w-100" href="#">Action 2</a>
+    </div>
+  </div>
+
+  <div class="navmenu-divider"></div>
+
+  <h6 class="navmenu-header">Text</h6>
+  <div class="navmenu-content">
+    <p class="text-light mb-0">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </div>
+</nav>
+{% endexample %}
+
+## Collapse
 
 Example 1:
 
@@ -397,8 +424,6 @@ Example 3:
 {% endexample %}
 
 ## Dropdowns
-
-Membutuhkan [Bootstrap dropdown plugin](https://v4-alpha.getbootstrap.com/components/dropdowns/).
 
 {% example html %}
 <nav class="navmenu navmenu-light bg-light">
