@@ -27,7 +27,7 @@ authors: Igoy Nawamreh
 social_logo_path: /assets/brand/bootstrap-social-logo.png
 social_image_path: /assets/brand/bootstrap-social.png
 
-# Custom vars
+# Custom variables
 current_version:   1.0.0-alpha.1
 bootstrap_version: 4.0.0-alpha.6
 repo:              https://github.com/bootsblogger/bootsblogger
