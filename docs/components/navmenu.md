@@ -191,6 +191,64 @@ Image and text:
 </nav>
 {% endexample %}
 
+**Hover** - Tambahkan `.nav-item-hover` ke `.nav-item`.
+
+{% example html %}
+<nav class="navmenu navmenu-light bg-light">
+  <div class="navmenu-nav">
+    <a class="nav-item nav-item-hover nav-link" href="#">Nav item</a>
+    <a class="nav-item nav-item-hover nav-link" href="#">Nav item again</a>
+    <a class="nav-item nav-item-hover nav-link" href="#">Another nav item</a>
+    <a class="nav-item nav-item-hover nav-link active" href="#">Active</a>
+    <a class="nav-item nav-item-hover nav-link disabled" href="#">Disabled</a>
+  </div>
+
+  <div class="navmenu-nav">
+    <a class="nav-item nav-item-bordered nav-item-hover nav-link" href="#">Nav item</a>
+    <a class="nav-item nav-item-bordered nav-item-hover nav-link" href="#">Nav item again</a>
+    <a class="nav-item nav-item-bordered nav-item-hover nav-link" href="#">Another nav item</a>
+    <a class="nav-item nav-item-bordered nav-item-hover nav-link active" href="#">Active</a>
+    <a class="nav-item nav-item-bordered nav-item-hover nav-link disabled" href="#">Disabled</a>
+  </div>
+
+  <div class="navmenu-nav">
+    <div class="nav-item nav-item-hover">
+      <a class="nav-link" href="#">Nav item</a>
+    </div>
+    <div class="nav-item nav-item-hover">
+      <a class="nav-link" href="#">Nav item again</a>
+    </div>
+    <div class="nav-item nav-item-hover">
+      <a class="nav-link" href="#">Another nav item</a>
+    </div>
+    <div class="nav-item nav-item-hover">
+      <a class="nav-link active" href="#">Active</a>
+    </div>
+    <div class="nav-item nav-item-hover">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </div>
+  </div>
+
+  <div class="navmenu-nav">
+    <div class="nav-item nav-item-bordered nav-item-hover">
+      <a class="nav-link" href="#">Nav item</a>
+    </div>
+    <div class="nav-item nav-item-bordered nav-item-hover">
+      <a class="nav-link" href="#">Nav item again</a>
+    </div>
+    <div class="nav-item nav-item-bordered nav-item-hover">
+      <a class="nav-link" href="#">Another nav item</a>
+    </div>
+    <div class="nav-item nav-item-bordered nav-item-hover">
+      <a class="nav-link active" href="#">Active</a>
+    </div>
+    <div class="nav-item nav-item-bordered nav-item-hover">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </div>
+  </div>
+</nav>
+{% endexample %}
+
 ### Headers
 
 {% example html %}
@@ -357,7 +415,7 @@ Example 1:
 <nav class="navmenu navmenu-light bg-light">
   <a class="navmenu-brand" href="#">Bootsblogger</a>
   <div class="navmenu-nav">
-    <a class="nav-item nav-link dropdown-toggle" data-toggle="collapse" href="#navmenuNavCollapseDemo01" aria-expanded="false" aria-controls="navmenuNavCollapseDemo01">
+    <a class="nav-item nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#navmenuNavCollapseDemo01" aria-expanded="false" aria-controls="navmenuNavCollapseDemo01">
       Nav item collapse
     </a>
     <div class="collapse" id="navmenuNavCollapseDemo01">
@@ -379,14 +437,14 @@ Example 2:
 <nav class="navmenu navmenu-light bg-light">
   <a class="navmenu-brand" href="#">Bootsblogger</a>
   <div class="navmenu-nav">
-    <a class="nav-item nav-link dropdown-toggle" data-toggle="collapse" href="#navmenuNavCollapseDemo02" aria-expanded="false" aria-controls="navmenuNavCollapseDemo02">
+    <a class="nav-item nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#navmenuNavCollapseDemo02" aria-expanded="false" aria-controls="navmenuNavCollapseDemo02">
       Nav item collapse
     </a>
     <div class="collapse" id="navmenuNavCollapseDemo02">
       <div>
-        <a class="nav-item nav-item-bordered nav-link nav-link-sm small" href="#">Nav item</a>
-        <a class="nav-item nav-item-bordered nav-link nav-link-sm small" href="#">Nav item again</a>
-        <a class="nav-item nav-item-bordered nav-link nav-link-sm small" href="#">Another nav item</a>
+        <a class="nav-item nav-item-bordered nav-item-hover nav-link nav-link-sm small" href="#">Nav item</a>
+        <a class="nav-item nav-item-bordered nav-item-hover nav-link nav-link-sm small" href="#">Nav item again</a>
+        <a class="nav-item nav-item-bordered nav-item-hover nav-link nav-link-sm small" href="#">Another nav item</a>
       </div>
     </div>
     <a class="nav-item nav-link" href="#">Nav item again</a>
@@ -402,7 +460,7 @@ Example 3:
   <a class="navmenu-brand" href="#">Bootsblogger</a>
   <div class="navmenu-nav">
     <div class="nav-item nav-item-bordered">
-      <a class="nav-link dropdown-toggle" data-toggle="collapse" href="#navmenuNavCollapseDemo03" aria-expanded="false" aria-controls="navmenuNavCollapseDemo03">
+      <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#navmenuNavCollapseDemo03" aria-expanded="false" aria-controls="navmenuNavCollapseDemo03">
         Nav item collapse
       </a>
       <div class="collapse" id="navmenuNavCollapseDemo03">

@@ -25,7 +25,7 @@ $card-inverse-title-link-hover-decoration:  none !default;
 //
 
 $navmenu-padding-x:                 1.25rem !default;
-$navmenu-padding-y:                 1.25rem !default;
+$navmenu-padding-y:                 1rem !default;
 $navmenu-border-width:              1px !default;
 $navmenu-border-color:              rgba(0,0,0,.05) !default;
 $navmenu-border-radius:             $border-radius !default;
@@ -48,6 +48,7 @@ $navmenu-light-active-color:          rgba(0,0,0,.9) !default;
 $navmenu-light-disabled-color:        rgba(0,0,0,.3) !default;
 $navmenu-light-header-color:          rgba(0,0,0,.4) !default;
 $navmenu-light-item-border-color:     rgba(0,0,0,.05) !default;
+$navmenu-light-item-hover-color:      $navmenu-light-item-border-color !default;
 $navmenu-light-divider-border-color:  rgba(0,0,0,.05) !default;
 
 $navmenu-dark-color:                  rgba(255,255,255,.5) !default;
@@ -55,8 +56,9 @@ $navmenu-dark-hover-color:            rgba(255,255,255,.75) !default;
 $navmenu-dark-active-color:           rgba(255,255,255,1) !default;
 $navmenu-dark-disabled-color:         rgba(255,255,255,.25) !default;
 $navmenu-dark-header-color:           rgba(255,255,255,.4) !default;
-$navmenu-dark-item-border-color:      rgba(0,0,0,.25) !default;
-$navmenu-dark-divider-border-color:   rgba(0,0,0,.25) !default;
+$navmenu-dark-item-border-color:      rgba(0,0,0,.15) !default;
+$navmenu-dark-item-hover-color:       $navmenu-dark-item-border-color !default;
+$navmenu-dark-divider-border-color:   rgba(0,0,0,.15) !default;
 
 
 //
