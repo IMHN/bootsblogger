@@ -15,7 +15,10 @@ layout: home
         <div class="lead mb-3">
           <a href="{{ site.baseurl }}/getting-started/" class="btn btn-lg btn-bd">Getting started</a>
         </div>
-        <p class="text-muted mb-0">Currently {{ site.current_version }}</p>
+        <p class="text-muted mb-0">
+          <span class="d-block">Currently v{{ site.current_version }}</span>
+          <small class="d-block"><span class="badge badge-secondary">Bootstrap v{{ site.bootstrap_version }}</span></small>
+        </p>
       </div>
     </div>
   </div>
