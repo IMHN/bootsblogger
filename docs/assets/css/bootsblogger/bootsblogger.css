@@ -220,8 +220,7 @@
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-background-size: cover;
-          background-size: cover;
+  background-size: cover;
 }
 
 .navmenu {
@@ -263,15 +262,10 @@
 }
 
 .navmenu-nav {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   padding-left: 0;
   margin-right: -1.25rem;
   margin-bottom: 0;
@@ -1292,17 +1286,12 @@
 .wg-10,
 .wg-11,
 .wg-12 {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-align: start;
+      align-items: flex-start;
 }
 .wg-1.wg-equal-height-cols,
 .wg-2.wg-equal-height-cols,
@@ -1316,10 +1305,8 @@
 .wg-10.wg-equal-height-cols,
 .wg-11.wg-equal-height-cols,
 .wg-12.wg-equal-height-cols {
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
 }
 .wg-1.wg-equal-height-cols .widget-content,
 .wg-2.wg-equal-height-cols .widget-content,
@@ -1347,183 +1334,130 @@
 .wg-10 .widget,
 .wg-11 .widget,
 .wg-12 .widget {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   width: 100%;
 }
 
 .wg-12 .widget {
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-  -webkit-flex-basis: calc(100% - 30px);
-      -ms-flex-preferred-size: calc(100% - 30px);
-          flex-basis: calc(100% - 30px);
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: calc(100% - 30px);
+      flex-basis: calc(100% - 30px);
   max-width: calc(100% - 30px);
 }
 
 .wg-11 .widget {
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-  -webkit-flex-basis: calc(91.66666667% - 30px);
-      -ms-flex-preferred-size: calc(91.66666667% - 30px);
-          flex-basis: calc(91.66666667% - 30px);
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: calc(91.66666667% - 30px);
+      flex-basis: calc(91.66666667% - 30px);
   max-width: calc(91.66666667% - 30px);
 }
 
 .wg-10 .widget {
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-  -webkit-flex-basis: calc(83.33333333% - 30px);
-      -ms-flex-preferred-size: calc(83.33333333% - 30px);
-          flex-basis: calc(83.33333333% - 30px);
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: calc(83.33333333% - 30px);
+      flex-basis: calc(83.33333333% - 30px);
   max-width: calc(83.33333333% - 30px);
 }
 
 .wg-9 .widget {
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-  -webkit-flex-basis: calc(75% - 30px);
-      -ms-flex-preferred-size: calc(75% - 30px);
-          flex-basis: calc(75% - 30px);
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: calc(75% - 30px);
+      flex-basis: calc(75% - 30px);
   max-width: calc(75% - 30px);
 }
 
 .wg-8 .widget {
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-  -webkit-flex-basis: calc(66.66666667% - 30px);
-      -ms-flex-preferred-size: calc(66.66666667% - 30px);
-          flex-basis: calc(66.66666667% - 30px);
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: calc(66.66666667% - 30px);
+      flex-basis: calc(66.66666667% - 30px);
   max-width: calc(66.66666667% - 30px);
 }
 
 .wg-7 .widget {
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-  -webkit-flex-basis: calc(58.33333333% - 30px);
-      -ms-flex-preferred-size: calc(58.33333333% - 30px);
-          flex-basis: calc(58.33333333% - 30px);
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: calc(58.33333333% - 30px);
+      flex-basis: calc(58.33333333% - 30px);
   max-width: calc(58.33333333% - 30px);
 }
 
 .wg-6 .widget {
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-  -webkit-flex-basis: calc(50% - 30px);
-      -ms-flex-preferred-size: calc(50% - 30px);
-          flex-basis: calc(50% - 30px);
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: calc(50% - 30px);
+      flex-basis: calc(50% - 30px);
   max-width: calc(50% - 30px);
 }
 
 .wg-5 .widget {
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-  -webkit-flex-basis: calc(41.66666667% - 30px);
-      -ms-flex-preferred-size: calc(41.66666667% - 30px);
-          flex-basis: calc(41.66666667% - 30px);
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: calc(41.66666667% - 30px);
+      flex-basis: calc(41.66666667% - 30px);
   max-width: calc(41.66666667% - 30px);
 }
 
 .wg-4 .widget {
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-  -webkit-flex-basis: calc(33.33333333% - 30px);
-      -ms-flex-preferred-size: calc(33.33333333% - 30px);
-          flex-basis: calc(33.33333333% - 30px);
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: calc(33.33333333% - 30px);
+      flex-basis: calc(33.33333333% - 30px);
   max-width: calc(33.33333333% - 30px);
 }
 
 .wg-3 .widget {
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-  -webkit-flex-basis: calc(25% - 30px);
-      -ms-flex-preferred-size: calc(25% - 30px);
-          flex-basis: calc(25% - 30px);
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: calc(25% - 30px);
+      flex-basis: calc(25% - 30px);
   max-width: calc(25% - 30px);
 }
 
 .wg-2 .widget {
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-  -webkit-flex-basis: calc(16.66666667% - 30px);
-      -ms-flex-preferred-size: calc(16.66666667% - 30px);
-          flex-basis: calc(16.66666667% - 30px);
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: calc(16.66666667% - 30px);
+      flex-basis: calc(16.66666667% - 30px);
   max-width: calc(16.66666667% - 30px);
 }
 
 .wg-1 .widget {
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-  -webkit-flex-basis: calc(8.33333333% - 30px);
-      -ms-flex-preferred-size: calc(8.33333333% - 30px);
-          flex-basis: calc(8.33333333% - 30px);
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: calc(8.33333333% - 30px);
+      flex-basis: calc(8.33333333% - 30px);
   max-width: calc(8.33333333% - 30px);
 }
 
@@ -1540,17 +1474,12 @@
   .wg-sm-10,
   .wg-sm-11,
   .wg-sm-12 {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-align: start;
+        align-items: flex-start;
   }
   .wg-sm-1.wg-equal-height-cols,
   .wg-sm-2.wg-equal-height-cols,
@@ -1564,10 +1493,8 @@
   .wg-sm-10.wg-equal-height-cols,
   .wg-sm-11.wg-equal-height-cols,
   .wg-sm-12.wg-equal-height-cols {
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
+    -ms-flex-align: stretch;
+        align-items: stretch;
   }
   .wg-sm-1.wg-equal-height-cols .widget-content,
   .wg-sm-2.wg-equal-height-cols .widget-content,
@@ -1595,183 +1522,130 @@
   .wg-sm-10 .widget,
   .wg-sm-11 .widget,
   .wg-sm-12 .widget {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     width: 100%;
   }
 
   .wg-sm-12 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(100% - 30px);
-        -ms-flex-preferred-size: calc(100% - 30px);
-            flex-basis: calc(100% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(100% - 30px);
+        flex-basis: calc(100% - 30px);
     max-width: calc(100% - 30px);
   }
 
   .wg-sm-11 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(91.66666667% - 30px);
-        -ms-flex-preferred-size: calc(91.66666667% - 30px);
-            flex-basis: calc(91.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(91.66666667% - 30px);
+        flex-basis: calc(91.66666667% - 30px);
     max-width: calc(91.66666667% - 30px);
   }
 
   .wg-sm-10 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(83.33333333% - 30px);
-        -ms-flex-preferred-size: calc(83.33333333% - 30px);
-            flex-basis: calc(83.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(83.33333333% - 30px);
+        flex-basis: calc(83.33333333% - 30px);
     max-width: calc(83.33333333% - 30px);
   }
 
   .wg-sm-9 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(75% - 30px);
-        -ms-flex-preferred-size: calc(75% - 30px);
-            flex-basis: calc(75% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(75% - 30px);
+        flex-basis: calc(75% - 30px);
     max-width: calc(75% - 30px);
   }
 
   .wg-sm-8 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(66.66666667% - 30px);
-        -ms-flex-preferred-size: calc(66.66666667% - 30px);
-            flex-basis: calc(66.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(66.66666667% - 30px);
+        flex-basis: calc(66.66666667% - 30px);
     max-width: calc(66.66666667% - 30px);
   }
 
   .wg-sm-7 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(58.33333333% - 30px);
-        -ms-flex-preferred-size: calc(58.33333333% - 30px);
-            flex-basis: calc(58.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(58.33333333% - 30px);
+        flex-basis: calc(58.33333333% - 30px);
     max-width: calc(58.33333333% - 30px);
   }
 
   .wg-sm-6 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(50% - 30px);
-        -ms-flex-preferred-size: calc(50% - 30px);
-            flex-basis: calc(50% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
     max-width: calc(50% - 30px);
   }
 
   .wg-sm-5 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(41.66666667% - 30px);
-        -ms-flex-preferred-size: calc(41.66666667% - 30px);
-            flex-basis: calc(41.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(41.66666667% - 30px);
+        flex-basis: calc(41.66666667% - 30px);
     max-width: calc(41.66666667% - 30px);
   }
 
   .wg-sm-4 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(33.33333333% - 30px);
-        -ms-flex-preferred-size: calc(33.33333333% - 30px);
-            flex-basis: calc(33.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(33.33333333% - 30px);
+        flex-basis: calc(33.33333333% - 30px);
     max-width: calc(33.33333333% - 30px);
   }
 
   .wg-sm-3 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(25% - 30px);
-        -ms-flex-preferred-size: calc(25% - 30px);
-            flex-basis: calc(25% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(25% - 30px);
+        flex-basis: calc(25% - 30px);
     max-width: calc(25% - 30px);
   }
 
   .wg-sm-2 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(16.66666667% - 30px);
-        -ms-flex-preferred-size: calc(16.66666667% - 30px);
-            flex-basis: calc(16.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(16.66666667% - 30px);
+        flex-basis: calc(16.66666667% - 30px);
     max-width: calc(16.66666667% - 30px);
   }
 
   .wg-sm-1 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(8.33333333% - 30px);
-        -ms-flex-preferred-size: calc(8.33333333% - 30px);
-            flex-basis: calc(8.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(8.33333333% - 30px);
+        flex-basis: calc(8.33333333% - 30px);
     max-width: calc(8.33333333% - 30px);
   }
 }
@@ -1788,17 +1662,12 @@
   .wg-md-10,
   .wg-md-11,
   .wg-md-12 {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-align: start;
+        align-items: flex-start;
   }
   .wg-md-1.wg-equal-height-cols,
   .wg-md-2.wg-equal-height-cols,
@@ -1812,10 +1681,8 @@
   .wg-md-10.wg-equal-height-cols,
   .wg-md-11.wg-equal-height-cols,
   .wg-md-12.wg-equal-height-cols {
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
+    -ms-flex-align: stretch;
+        align-items: stretch;
   }
   .wg-md-1.wg-equal-height-cols .widget-content,
   .wg-md-2.wg-equal-height-cols .widget-content,
@@ -1843,183 +1710,130 @@
   .wg-md-10 .widget,
   .wg-md-11 .widget,
   .wg-md-12 .widget {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     width: 100%;
   }
 
   .wg-md-12 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(100% - 30px);
-        -ms-flex-preferred-size: calc(100% - 30px);
-            flex-basis: calc(100% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(100% - 30px);
+        flex-basis: calc(100% - 30px);
     max-width: calc(100% - 30px);
   }
 
   .wg-md-11 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(91.66666667% - 30px);
-        -ms-flex-preferred-size: calc(91.66666667% - 30px);
-            flex-basis: calc(91.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(91.66666667% - 30px);
+        flex-basis: calc(91.66666667% - 30px);
     max-width: calc(91.66666667% - 30px);
   }
 
   .wg-md-10 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(83.33333333% - 30px);
-        -ms-flex-preferred-size: calc(83.33333333% - 30px);
-            flex-basis: calc(83.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(83.33333333% - 30px);
+        flex-basis: calc(83.33333333% - 30px);
     max-width: calc(83.33333333% - 30px);
   }
 
   .wg-md-9 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(75% - 30px);
-        -ms-flex-preferred-size: calc(75% - 30px);
-            flex-basis: calc(75% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(75% - 30px);
+        flex-basis: calc(75% - 30px);
     max-width: calc(75% - 30px);
   }
 
   .wg-md-8 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(66.66666667% - 30px);
-        -ms-flex-preferred-size: calc(66.66666667% - 30px);
-            flex-basis: calc(66.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(66.66666667% - 30px);
+        flex-basis: calc(66.66666667% - 30px);
     max-width: calc(66.66666667% - 30px);
   }
 
   .wg-md-7 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(58.33333333% - 30px);
-        -ms-flex-preferred-size: calc(58.33333333% - 30px);
-            flex-basis: calc(58.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(58.33333333% - 30px);
+        flex-basis: calc(58.33333333% - 30px);
     max-width: calc(58.33333333% - 30px);
   }
 
   .wg-md-6 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(50% - 30px);
-        -ms-flex-preferred-size: calc(50% - 30px);
-            flex-basis: calc(50% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
     max-width: calc(50% - 30px);
   }
 
   .wg-md-5 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(41.66666667% - 30px);
-        -ms-flex-preferred-size: calc(41.66666667% - 30px);
-            flex-basis: calc(41.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(41.66666667% - 30px);
+        flex-basis: calc(41.66666667% - 30px);
     max-width: calc(41.66666667% - 30px);
   }
 
   .wg-md-4 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(33.33333333% - 30px);
-        -ms-flex-preferred-size: calc(33.33333333% - 30px);
-            flex-basis: calc(33.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(33.33333333% - 30px);
+        flex-basis: calc(33.33333333% - 30px);
     max-width: calc(33.33333333% - 30px);
   }
 
   .wg-md-3 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(25% - 30px);
-        -ms-flex-preferred-size: calc(25% - 30px);
-            flex-basis: calc(25% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(25% - 30px);
+        flex-basis: calc(25% - 30px);
     max-width: calc(25% - 30px);
   }
 
   .wg-md-2 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(16.66666667% - 30px);
-        -ms-flex-preferred-size: calc(16.66666667% - 30px);
-            flex-basis: calc(16.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(16.66666667% - 30px);
+        flex-basis: calc(16.66666667% - 30px);
     max-width: calc(16.66666667% - 30px);
   }
 
   .wg-md-1 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(8.33333333% - 30px);
-        -ms-flex-preferred-size: calc(8.33333333% - 30px);
-            flex-basis: calc(8.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(8.33333333% - 30px);
+        flex-basis: calc(8.33333333% - 30px);
     max-width: calc(8.33333333% - 30px);
   }
 }
@@ -2036,17 +1850,12 @@
   .wg-lg-10,
   .wg-lg-11,
   .wg-lg-12 {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-align: start;
+        align-items: flex-start;
   }
   .wg-lg-1.wg-equal-height-cols,
   .wg-lg-2.wg-equal-height-cols,
@@ -2060,10 +1869,8 @@
   .wg-lg-10.wg-equal-height-cols,
   .wg-lg-11.wg-equal-height-cols,
   .wg-lg-12.wg-equal-height-cols {
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
+    -ms-flex-align: stretch;
+        align-items: stretch;
   }
   .wg-lg-1.wg-equal-height-cols .widget-content,
   .wg-lg-2.wg-equal-height-cols .widget-content,
@@ -2091,183 +1898,130 @@
   .wg-lg-10 .widget,
   .wg-lg-11 .widget,
   .wg-lg-12 .widget {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     width: 100%;
   }
 
   .wg-lg-12 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(100% - 30px);
-        -ms-flex-preferred-size: calc(100% - 30px);
-            flex-basis: calc(100% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(100% - 30px);
+        flex-basis: calc(100% - 30px);
     max-width: calc(100% - 30px);
   }
 
   .wg-lg-11 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(91.66666667% - 30px);
-        -ms-flex-preferred-size: calc(91.66666667% - 30px);
-            flex-basis: calc(91.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(91.66666667% - 30px);
+        flex-basis: calc(91.66666667% - 30px);
     max-width: calc(91.66666667% - 30px);
   }
 
   .wg-lg-10 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(83.33333333% - 30px);
-        -ms-flex-preferred-size: calc(83.33333333% - 30px);
-            flex-basis: calc(83.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(83.33333333% - 30px);
+        flex-basis: calc(83.33333333% - 30px);
     max-width: calc(83.33333333% - 30px);
   }
 
   .wg-lg-9 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(75% - 30px);
-        -ms-flex-preferred-size: calc(75% - 30px);
-            flex-basis: calc(75% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(75% - 30px);
+        flex-basis: calc(75% - 30px);
     max-width: calc(75% - 30px);
   }
 
   .wg-lg-8 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(66.66666667% - 30px);
-        -ms-flex-preferred-size: calc(66.66666667% - 30px);
-            flex-basis: calc(66.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(66.66666667% - 30px);
+        flex-basis: calc(66.66666667% - 30px);
     max-width: calc(66.66666667% - 30px);
   }
 
   .wg-lg-7 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(58.33333333% - 30px);
-        -ms-flex-preferred-size: calc(58.33333333% - 30px);
-            flex-basis: calc(58.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(58.33333333% - 30px);
+        flex-basis: calc(58.33333333% - 30px);
     max-width: calc(58.33333333% - 30px);
   }
 
   .wg-lg-6 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(50% - 30px);
-        -ms-flex-preferred-size: calc(50% - 30px);
-            flex-basis: calc(50% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
     max-width: calc(50% - 30px);
   }
 
   .wg-lg-5 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(41.66666667% - 30px);
-        -ms-flex-preferred-size: calc(41.66666667% - 30px);
-            flex-basis: calc(41.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(41.66666667% - 30px);
+        flex-basis: calc(41.66666667% - 30px);
     max-width: calc(41.66666667% - 30px);
   }
 
   .wg-lg-4 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(33.33333333% - 30px);
-        -ms-flex-preferred-size: calc(33.33333333% - 30px);
-            flex-basis: calc(33.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(33.33333333% - 30px);
+        flex-basis: calc(33.33333333% - 30px);
     max-width: calc(33.33333333% - 30px);
   }
 
   .wg-lg-3 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(25% - 30px);
-        -ms-flex-preferred-size: calc(25% - 30px);
-            flex-basis: calc(25% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(25% - 30px);
+        flex-basis: calc(25% - 30px);
     max-width: calc(25% - 30px);
   }
 
   .wg-lg-2 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(16.66666667% - 30px);
-        -ms-flex-preferred-size: calc(16.66666667% - 30px);
-            flex-basis: calc(16.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(16.66666667% - 30px);
+        flex-basis: calc(16.66666667% - 30px);
     max-width: calc(16.66666667% - 30px);
   }
 
   .wg-lg-1 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(8.33333333% - 30px);
-        -ms-flex-preferred-size: calc(8.33333333% - 30px);
-            flex-basis: calc(8.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(8.33333333% - 30px);
+        flex-basis: calc(8.33333333% - 30px);
     max-width: calc(8.33333333% - 30px);
   }
 }
@@ -2284,17 +2038,12 @@
   .wg-xl-10,
   .wg-xl-11,
   .wg-xl-12 {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-align: start;
+        align-items: flex-start;
   }
   .wg-xl-1.wg-equal-height-cols,
   .wg-xl-2.wg-equal-height-cols,
@@ -2308,10 +2057,8 @@
   .wg-xl-10.wg-equal-height-cols,
   .wg-xl-11.wg-equal-height-cols,
   .wg-xl-12.wg-equal-height-cols {
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
+    -ms-flex-align: stretch;
+        align-items: stretch;
   }
   .wg-xl-1.wg-equal-height-cols .widget-content,
   .wg-xl-2.wg-equal-height-cols .widget-content,
@@ -2339,183 +2086,130 @@
   .wg-xl-10 .widget,
   .wg-xl-11 .widget,
   .wg-xl-12 .widget {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     width: 100%;
   }
 
   .wg-xl-12 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(100% - 30px);
-        -ms-flex-preferred-size: calc(100% - 30px);
-            flex-basis: calc(100% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(100% - 30px);
+        flex-basis: calc(100% - 30px);
     max-width: calc(100% - 30px);
   }
 
   .wg-xl-11 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(91.66666667% - 30px);
-        -ms-flex-preferred-size: calc(91.66666667% - 30px);
-            flex-basis: calc(91.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(91.66666667% - 30px);
+        flex-basis: calc(91.66666667% - 30px);
     max-width: calc(91.66666667% - 30px);
   }
 
   .wg-xl-10 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(83.33333333% - 30px);
-        -ms-flex-preferred-size: calc(83.33333333% - 30px);
-            flex-basis: calc(83.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(83.33333333% - 30px);
+        flex-basis: calc(83.33333333% - 30px);
     max-width: calc(83.33333333% - 30px);
   }
 
   .wg-xl-9 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(75% - 30px);
-        -ms-flex-preferred-size: calc(75% - 30px);
-            flex-basis: calc(75% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(75% - 30px);
+        flex-basis: calc(75% - 30px);
     max-width: calc(75% - 30px);
   }
 
   .wg-xl-8 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(66.66666667% - 30px);
-        -ms-flex-preferred-size: calc(66.66666667% - 30px);
-            flex-basis: calc(66.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(66.66666667% - 30px);
+        flex-basis: calc(66.66666667% - 30px);
     max-width: calc(66.66666667% - 30px);
   }
 
   .wg-xl-7 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(58.33333333% - 30px);
-        -ms-flex-preferred-size: calc(58.33333333% - 30px);
-            flex-basis: calc(58.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(58.33333333% - 30px);
+        flex-basis: calc(58.33333333% - 30px);
     max-width: calc(58.33333333% - 30px);
   }
 
   .wg-xl-6 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(50% - 30px);
-        -ms-flex-preferred-size: calc(50% - 30px);
-            flex-basis: calc(50% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
     max-width: calc(50% - 30px);
   }
 
   .wg-xl-5 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(41.66666667% - 30px);
-        -ms-flex-preferred-size: calc(41.66666667% - 30px);
-            flex-basis: calc(41.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(41.66666667% - 30px);
+        flex-basis: calc(41.66666667% - 30px);
     max-width: calc(41.66666667% - 30px);
   }
 
   .wg-xl-4 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(33.33333333% - 30px);
-        -ms-flex-preferred-size: calc(33.33333333% - 30px);
-            flex-basis: calc(33.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(33.33333333% - 30px);
+        flex-basis: calc(33.33333333% - 30px);
     max-width: calc(33.33333333% - 30px);
   }
 
   .wg-xl-3 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(25% - 30px);
-        -ms-flex-preferred-size: calc(25% - 30px);
-            flex-basis: calc(25% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(25% - 30px);
+        flex-basis: calc(25% - 30px);
     max-width: calc(25% - 30px);
   }
 
   .wg-xl-2 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(16.66666667% - 30px);
-        -ms-flex-preferred-size: calc(16.66666667% - 30px);
-            flex-basis: calc(16.66666667% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(16.66666667% - 30px);
+        flex-basis: calc(16.66666667% - 30px);
     max-width: calc(16.66666667% - 30px);
   }
 
   .wg-xl-1 .widget {
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    -webkit-flex-basis: calc(8.33333333% - 30px);
-        -ms-flex-preferred-size: calc(8.33333333% - 30px);
-            flex-basis: calc(8.33333333% - 30px);
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(8.33333333% - 30px);
+        flex-basis: calc(8.33333333% - 30px);
     max-width: calc(8.33333333% - 30px);
   }
 }
