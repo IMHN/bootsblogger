@@ -29,8 +29,7 @@ Hanya berisi template terkompilasi.
 
 {% highlight plaintext %}
 bootsblogger/
-└── dist/
-    └── template.xml
+└── template.xml
 {% endhighlight %}
 
 Pasang `template.xml` di blog Anda, kemudian ubahsuaikan. Atau, ubahsuaikan menggunakan *text editor* favorit Anda, kemudian pasang template di blog Anda.
