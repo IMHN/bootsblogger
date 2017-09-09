@@ -33,13 +33,13 @@ toc: true
 ###### Includable
 
 {% highlight html %}
-<b:includable id='js.required'>...</b:includable>
+<b:includable id='assets.requiredJs'>...</b:includable>
 {% endhighlight %}
 
 ###### Usage
 
 {% highlight html %}
-<b:include name='js.required'/>
+<b:include name='assets.requiredJs'/>
 {% endhighlight %}
 
 ## Icons
@@ -92,7 +92,7 @@ template-src/includable/assets/icons/assets.bloggerIcon.xml
   <body>
     <h1>Hello, world!</h1>
 
-    <b:include name='js.required'/>
+    <b:include name='assets.requiredJs'/>
   </body>
 </html>
 {% endhighlight %}

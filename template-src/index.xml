@@ -174,7 +174,7 @@ Footer
 JavaScript
 ================================================= </b:comment>
 
-<b:include name='js.required'/>
+<b:include name='assets.requiredJs'/>
 
 <b:comment>=== Template JavaScript ===</b:comment>
 <script>
