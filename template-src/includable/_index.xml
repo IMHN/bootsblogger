@@ -126,7 +126,7 @@ Assets
 
 <b:defaultmarkups>
   <b:defaultmarkup type='Common'>
-    <b:includable id='css.required'>
+    <b:includable id='assets.requiredCss'>
       <b:comment>=== Bootstrap ===</b:comment>
       <style>
       <!--(bake assets/css/bootstrap/bootstrap.min.css)-->

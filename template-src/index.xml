@@ -29,7 +29,7 @@ Title, meta and link tags
 CSS
 ================================================= </b:comment>
 
-<b:include name='css.required'/>
+<b:include name='assets.requiredCss'/>
 
 <b:comment>=== Layout mode CSS ===</b:comment>
 <b:template-skin>
