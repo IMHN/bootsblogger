@@ -153,8 +153,8 @@ Assets
 
 <b:defaultmarkups>
   <b:defaultmarkup type='Common'>
-    <b:includable id='icons.blogger'>
-      <!--(bake assets/icons/icons.blogger.xml)-->
+    <b:includable id='assets.bloggerIcon'>
+      <!--(bake assets/icons/assets.bloggerIcon.xml)-->
     </b:includable>
   </b:defaultmarkup>
 </b:defaultmarkups>

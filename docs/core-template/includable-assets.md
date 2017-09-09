@@ -44,24 +44,26 @@ toc: true
 
 ## Icons
 
+Inline SVG icons.
+
 ### Blogger
 
 ###### Source
 
 {% highlight plaintext %}
-template-src/includable/assets/icons/icons.blogger.xml
+template-src/includable/assets/icons/assets.bloggerIcon.xml
 {% endhighlight %}
 
 ###### Includable
 
 {% highlight html %}
-<b:includable id='icons.blogger'>...</b:includable>
+<b:includable id='assets.bloggerIcon'>...</b:includable>
 {% endhighlight %}
 
 ###### Usage
 
 {% highlight html %}
-<b:include data='{ width: number, height: number, fillBg: "#ff5722", fillB: "#fff", class: "class-name" }' name='icons.blogger'/>
+<b:include data='{ width: number, height: number, fillBg: "#ff5722", fillB: "#fff", class: "class-name" }' name='assets.bloggerIcon'/>
 {% endhighlight %}
 
 **Example:**
@@ -76,7 +78,7 @@ template-src/includable/assets/icons/icons.blogger.xml
 </div>
 
 {% highlight html %}
-<b:include data='{ width: 24, height: 24, fillBg: "#ff5722", fillB: "#fff", class: "align-middle" }' name='icons.blogger'/> Blogger
+<b:include data='{ width: 24, height: 24, fillBg: "#ff5722", fillB: "#fff", class: "align-middle" }' name='assets.bloggerIcon'/> Blogger
 {% endhighlight %}
 
 ## Example usage: CSS and JavaScript
